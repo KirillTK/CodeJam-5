@@ -1,33 +1,23 @@
 {
-  "nav": {
-    "en": {
-      "home": "Home",
-      "directors": "Theater directors"
-    },
-    "ru": {
-      "home": "Главная",
-      "directors": "Театральные режиссёры"
-    },
-    "by": {
-      "home": "Галоўная",
-      "directors": "Тэатральныя рэжысёры"
-    }
+  "eng" : {
+    "portalDescription": "blah-blah-blah",
+    "redirectToAuthor": "go to",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Portal",
+    "team": "Team"
   },
-  "sections": {
-    "en": {
-      "biography": "Biography",
-      "gallery": "Gallery",
-      "creation": "Creation"
-    },
-    "ru": {
-      "biography": "Биография",
-      "gallery": "Галерея",
-      "creation": "Творчество"
-    },
-    "by": {
-      "biography": "Біяграфія",
-      "gallery": "Галерэя",
-      "creation": "Творчасць"
-    }
+  "ru": {
+    "portalDescription": "blah-blah-blah",
+    "redirectToAuthor": "Перейти",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Портал",
+    "team": "Команда"
+  },
+  "by": {
+    "portalDescription": "blah-blah-blah",
+    "redirectToAuthor": "Перайсці",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Партал",
+    "team": "Каманда"
   }
 }

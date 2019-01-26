@@ -1,0 +1,23 @@
+.card {
+    width: 300px;
+}
+
+.desctiption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.author-img {
+
+}
+
+.portal {
+    width: 70%;
+}
+
+.flag:active{
+    transform: scale(0.7);
+}
