@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import AuthListComponent from './components/auth-list/AuthList';
-
+import { Link } from "react-router-dom";
 
 class App extends Component {
 
@@ -26,13 +26,14 @@ class App extends Component {
     }
 
     componentWillUnmount() {
-        if (this._asyncRequestForAuthors) {
-            this._asyncRequestForAuthors.cancel();
-        }
-
-        if (this._asyncRequestForLanguage) {
-            this._asyncRequestForLanguage.cancel();
-        }
+        // if (this._asyncRequestForAuthors) {
+        //     console.log(this._asyncRequestForAuthors);
+        //     this._asyncRequestForAuthors.cancel();
+        // }
+        //
+        // if (this._asyncRequestForLanguage) {
+        //     this._asyncRequestForLanguage.cancel();
+        // }
     }
 
 
@@ -69,7 +70,8 @@ class App extends Component {
                                             <img src={authorOfDay.photo} className="card-img-top author-img" alt={authorOfDay.name}/>
                                             <div className="card-body">
                                                 <h5 className="card-title">{authorOfDay.name}</h5>
-                                                <a href="#" className="btn btn-primary">{this.state.interface.redirectToAuthor}</a>
+                                                <Link
+                                                    to={`/Author/${authorOfDay.id}/${this.language}`}>{this.state.interface.redirectToAuthor}</Link>
                                             </div>
                                         </div>
                                         <div className="col-xs-0 col-sm-0 col-md-1 col-lg-1"/>
@@ -83,7 +85,8 @@ class App extends Component {
                                 </div>
                             </section>
 
-                            <AuthListComponent authors={this.state.authors} interface={this.state.interface}/>
+                            <AuthListComponent authors={this.state.authors} interface={this.state.interface} language={this.language}/>
+
 
                             <nav className="navbar navbar-dark bg-dark container row team">
 
@@ -119,7 +122,7 @@ class App extends Component {
 
 
                             </nav>
-                            
+
                         </div>
 
                     </header>
@@ -171,6 +174,9 @@ class App extends Component {
 
 
     loadData(language) {
+
+        this.language = language;
+
         this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
             this.setState({authors: data})
         });

@@ -1,6 +1,7 @@
 {
   "directors": [
     {
+      "id": 1,
       "name": "Alexander Vitalyevich Yanushkevich",
       "bio": [
         {
@@ -46,7 +47,7 @@
       ],
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
-        {
+        {
           "date": "2014",
           "title": "«Oedipus» Puppet Theater «Gulliver», Kurgan, and the Creative Association «KultProekt», Moscow"
         },
@@ -73,6 +74,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Fedor Ivanovich Shmakov",
       "bio": [
         {
