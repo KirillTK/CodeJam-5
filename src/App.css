@@ -1,39 +1,40 @@
-.card {
-    width: 300px;
+.App {
+    background-color: #dddddd;
+    color: #252525;
 }
-
-.desctiption {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 20px;
+.author-section {
+    padding: 25px 0;
 }
-
-.author-img {
-
-}
-
-.portal {
-    width: 70%;
-}
-
 .flag:active {
     transform: scale(0.7);
 }
-
+.card {
+    padding: 15px;
+    border-radius: 0;
+    border-style: none;
+}
 .collaborator-container {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
+    text-align: center;
     color: white;
     font-size: 1.1em;
 }
-
 .collaborator {
     margin-left: 25px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+.team {
+    margin-top: 50px;
+}
+.desctiption {
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: dashed 2px #252525;
+}
+.btn-primary {
+    width: 100%;
+}
+.text-wrap {
+    text-align: right;
 }
