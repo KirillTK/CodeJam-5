@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "en": {
+      "home": "Home",
+      "directors": "Theater directors"
+    },
+    "ru": {
+      "home": "Главная",
+      "directors": "Театральные режиссёры"
+    },
+    "by": {
+      "home": "Галоўная",
+      "directors": "Тэатральныя рэжысёры"
+    }
+  },
+  "sections": {
+    "en": {
+      "biography": "Biography",
+      "gallery": "Gallery",
+      "creation": "Creation"
+    },
+    "ru": {
+      "biography": "Биография",
+      "gallery": "Галерея",
+      "creation": "Творчество"
+    },
+    "by": {
+      "biography": "Біяграфія",
+      "gallery": "Галерэя",
+      "creation": "Творчасць"
+    }
+  }
+}
