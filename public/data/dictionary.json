@@ -5,7 +5,8 @@
     "desctiptionPortal": "blah-blah-blah",
     "portal": "Culture Portal",
     "team": "Team",
-    "searchInput": "Name"
+    "searchInput": "Name",
+    "authorDay": "Author of the day"
   },
   "ru": {
     "portalDescription": "blah-blah-blah",
@@ -13,7 +14,8 @@
     "desctiptionPortal": "blah-blah-blah",
     "portal": "Портал о культуре",
     "team": "Команда",
-    "searchInput": "Имя"
+    "searchInput": "Имя",
+    "authorDay": "Автор дня"
   },
   "by": {
     "portalDescription": "blah-blah-blah",
@@ -21,6 +23,7 @@
     "desctiptionPortal": "blah-blah-blah",
     "portal": "Партал пра культуру",
     "team": "Каманда",
-    "searchInput": "Імя"
+    "searchInput": "Імя",
+    "authorDay": "Аўтар дня"
   }
 }
