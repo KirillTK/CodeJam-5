@@ -10,6 +10,7 @@ class AuthListComponent extends Component {
 
         this.state = {
             authors: this.props.authors.directors,
+            interface: this.props.interface
         };
 
         this.classes = this.props.classes;
@@ -25,7 +26,7 @@ class AuthListComponent extends Component {
                 <section className={"container "}>
 
                     <div className={"author-search"}><input type="text" className="form-control form-control-lg "
-                                                            placeholder="Search"
+                                                            placeholder={this.state.interface.searchInput}
                                                             onChange={this.findPerson}/></div>
                     <div className={"list"}>
                         {this.renderList()}
@@ -42,8 +43,6 @@ class AuthListComponent extends Component {
         let updatedList = this.state.authors;
         updatedList = updatedList.filter((item) => item.name.toLowerCase().search(event.target.value.toLowerCase()) !== -1);
         this.setState({items: updatedList});
-
-        console.log('updatedList', updatedList);
     }
 
     renderList() {
