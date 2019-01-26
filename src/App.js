@@ -22,7 +22,7 @@ class App extends Component {
 
 
     componentDidMount() {
-      this.loadData('ru');
+        this.loadData('ru');
     }
 
     componentWillUnmount() {
@@ -48,7 +48,7 @@ class App extends Component {
 
                         <div className="container">
                             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                                <a className="navbar-brand" href="#">{this.state.interface.portal}</a>
+                                <h1>{this.state.interface.portal}</h1>
 
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,11 +56,11 @@ class App extends Component {
                                 </div>
 
                                 <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
-                                     onClick={this.chooseByLanguage}/>
+                                     onClick={this.chooseByLanguage} alt={'flag'}/>
                                 <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/eng.png'}
-                                     onClick={this.chooseEngLanguage}/>
+                                     onClick={this.chooseEngLanguage} alt={'flag'}/>
                                 <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/ru.png'}
-                                     onClick={this.chooseRusLanguage}/>
+                                     onClick={this.chooseRusLanguage} alt={'flag'}/>
                             </nav>
 
                             <section className={"desctiption"}>
@@ -76,13 +76,49 @@ class App extends Component {
                                 </div>
 
                                 <div className={"text-wrap portal"}>
-                                    <h1>{this.state.interface.portal}</h1>
+                                    <h2>{this.state.interface.portal}</h2>
                                     {this.state.interface.desctiptionPortal}
                                 </div>
 
                             </section>
 
                             <AuthListComponent authors={this.state.authors} interface={this.state.interface}/>
+
+                            <nav className="navbar fixed-bottom navbar-light bg-dark container">
+
+                                <div className={'collaborator-container'}>
+                                    <a  href="https://github.com/DasneiN" target={"_blank"}><img
+                                        src={'/assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'}/></a>
+                                    <span>Aleh Maskaliou</span>
+                                </div>
+
+                                <div className={'collaborator-container'}>
+                                    <a  href="https://github.com/jrzlve" target={"_blank"}><img
+                                        src={'/assets/github/jrzlve.jpg'} className={'collaborator'} alt={'name'}/></a>
+                                    <span>Aleh Maskaliou</span>
+                                </div>
+
+                                <div className={'collaborator-container'}>
+                                    <a  href="https://github.com/KirillTK" target={"_blank"}><img
+                                        src={'/assets/github/KirillTK.jpg'} className={'collaborator'} alt={'name'}/></a>
+                                    <span>Aleh Maskaliou</span>
+                                </div>
+
+                                <div className={'collaborator-container'}>
+                                    <a  href="https://github.com/ogurez" target={"_blank"}><img
+                                        src={'/assets/github/ogurez.jpg'} className={'collaborator'} alt={'name'}/></a>
+                                    <span>Aleh Maskaliou</span>
+                                </div>
+
+                                <div className={'collaborator-container'}>
+                                    <a  href="https://github.com/Ronavea" target={"_blank"}><img
+                                        src={'/assets/github/Ronavea.jpg'} className={'collaborator'} alt={'name'}/></a>
+                                    <span>Aleh Maskaliou</span>
+                                </div>
+
+
+                            </nav>
+
                         </div>
 
                     </header>
@@ -141,7 +177,7 @@ class App extends Component {
         });
     }
 
-    clearState(){
+    clearState() {
         this.setState({authors: null});
         this.setState({interface: null});
     }
