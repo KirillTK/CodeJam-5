@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 import uuid from 'uuid/v4';
 import './AuthList.css';
 
@@ -10,10 +11,10 @@ class AuthListComponent extends Component {
 
         this.state = {
             authors: this.props.authors.directors,
-            interface: this.props.interface
+            interface: this.props.interface,
+            language: this.props.language
         };
 
-        this.classes = this.props.classes;
         this.findPerson = this.findPerson.bind(this);
     }
 
@@ -48,18 +49,19 @@ class AuthListComponent extends Component {
     renderList() {
         const items = this.state.items;
         const parent = [];
-        parent.push(<ul  key={uuid()} className={"list-group"}/>);
+        parent.push(<ul key={uuid()} className={"list-group"}/>);
         const childs = [];
 
 
         if (items) {
             items.forEach(item => {
-                childs.push(<li key={uuid()} className={"list-group-item"}>{item.name}</li>);
+                childs.push(<li key={uuid()} className={"list-group-item"}>
+                    <Link to={`/Author/${item.id}/${this.state.language}`}>{item.name}</Link></li>);
             });
         } else {
-            this.state.authors.forEach(item=> {
+            this.state.authors.forEach(item => {
                 childs.push(<li key={uuid()} className={"list-group-item"}>
-                    {item.name}
+                    <Link to={`/Author/${item.id}/${this.state.language}`}>{item.name}</Link>
                 </li>);
             })
         }
