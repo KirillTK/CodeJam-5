@@ -36,13 +36,13 @@
           "dateDescription": "З 2017 года - галоўны рэжысёр Брэсцкага абласнога тэатра лялек."
         }
       ],
-      "photo": "yanushkevich/photo.jpg",
+      "photo": "/data/directors/yanushkevich/photo.jpg",
       "gallery": [
-        "yanushkevich/gallery-1.jpg",
-        "yanushkevich/gallery-2.jpg",
-        "yanushkevich/gallery-3.jpg",
-        "yanushkevich/gallery-4.jpg",
-        "yanushkevich/gallery-5.jpg"
+        "/data/directors/yanushkevich/gallery-1.jpg",
+        "/data/directors/yanushkevich/gallery-2.jpg",
+        "/data/directors/yanushkevich/gallery-3.jpg",
+        "/data/directors/yanushkevich/gallery-4.jpg",
+        "/data/directors/yanushkevich/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
@@ -100,13 +100,13 @@
           "dateDescription": "Памёр у Віцебску на 93-м годзе жыцця. Пахаваны на Мазуринском могілках у Віцебску."
         }
       ],
-      "photo": "shmakov/photo.jpg",
+      "photo": "/data/directors/shmakov/photo.jpg",
       "gallery": [
-        "shmakov/gallery-1.jpg",
-        "shmakov/gallery-2.jpg",
-        "shmakov/gallery-3.jpg",
-        "shmakov/gallery-4.jpg",
-        "shmakov/gallery-5.jpg"
+        "/data/directors/shmakov/gallery-1.jpg",
+        "/data/directors/shmakov/gallery-2.jpg",
+        "/data/directors/shmakov/gallery-3.jpg",
+        "/data/directors/shmakov/gallery-4.jpg",
+        "/data/directors/shmakov/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
