@@ -9,7 +9,7 @@
         },
         {
           "dateText": "2001 year",
-          "dateDescription": "After graduating from the theatrical department of the Belarusian State Academy of Arts, specializing in" puppet theater actor ", he joined the troupe of the State Puppet Theater of the Republic of Belarus."
+          "dateDescription": "After graduating from the theatrical department of the Belarusian State Academy of Arts, specializing in 'puppet theater actor', he joined the troupe of the State Puppet Theater of the Republic of Belarus."
         },
         {
           "dateText": "2010–2014 years",
@@ -17,7 +17,7 @@
         },
         {
           "dateText": "2011 year",
-          "dateDescription": "He graduated from the theater department of the Belarusian State Academy of Arts with a specialization in" puppet theater directing "."
+          "dateDescription": "He graduated from the theater department of the Belarusian State Academy of Arts with a specialization in 'puppet theater directing'."
         },
         {
           "dateText": "2012 year",
@@ -36,13 +36,13 @@
           "dateDescription": "Since 2017 - the main director of the Brest Regional Puppet Theater."
         }
       ],
-      "photo": "yanushkevich/photo.jpg",
+      "photo": "/data/directors/yanushkevich/photo.jpg",
       "gallery": [
-        "yanushkevich/gallery-1.jpg",
-        "yanushkevich/gallery-2.jpg",
-        "yanushkevich/gallery-3.jpg",
-        "yanushkevich/gallery-4.jpg",
-        "yanushkevich/gallery-5.jpg"
+        "/data/directors/yanushkevich/gallery-1.jpg",
+        "/data/directors/yanushkevich/gallery-2.jpg",
+        "/data/directors/yanushkevich/gallery-3.jpg",
+        "/data/directors/yanushkevich/gallery-4.jpg",
+        "/data/directors/yanushkevich/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
@@ -100,13 +100,13 @@
           "dateDescription": "He died in Vitebsk at the age of 93. He was buried at the Mazurinsky cemetery in Vitebsk."
         }
       ],
-      "photo": "shmakov/photo.jpg",
+      "photo": "/data/directors/shmakov/photo.jpg",
       "gallery": [
-        "shmakov/gallery-1.jpg",
-        "shmakov/gallery-2.jpg",
-        "shmakov/gallery-3.jpg",
-        "shmakov/gallery-4.jpg",
-        "shmakov/gallery-5.jpg"
+        "/data/directors/shmakov/gallery-1.jpg",
+        "/data/directors/shmakov/gallery-2.jpg",
+        "/data/directors/shmakov/gallery-3.jpg",
+        "/data/directors/shmakov/gallery-4.jpg",
+        "/data/directors/shmakov/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
