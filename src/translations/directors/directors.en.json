@@ -1,0 +1,144 @@
+{
+  "directors": [
+    {
+      "name": "Alexander Vitalyevich Yanushkevich",
+      "bio": [
+        {
+          "dateText": "03/11/1976",
+          "dateDescription": "Alexander Vitalyevich Yanushkevich was born"
+        },
+        {
+          "dateText": "2001 year",
+          "dateDescription": "After graduating from the theatrical department of the Belarusian State Academy of Arts, specializing in" puppet theater actor ", he joined the troupe of the State Puppet Theater of the Republic of Belarus."
+        },
+        {
+          "dateText": "2010–2014 years",
+          "dateDescription": "Director of the State Puppet Theater of the Republic of Belarus."
+        },
+        {
+          "dateText": "2011 year",
+          "dateDescription": "He graduated from the theater department of the Belarusian State Academy of Arts with a specialization in" puppet theater directing "."
+        },
+        {
+          "dateText": "2012 year",
+          "dateDescription": "Nominee for the Russian National Theater Award «Golden Mask» (performance «Oedipus», 2012)."
+        },
+        {
+          "dateText": "2014 year",
+          "dateDescription": "Winner of the III National Award of the Republic of Belarus «For the best direction of children's performances»."
+        },
+        {
+          "dateText": "2014–2016 years",
+          "dateDescription": "Art director of the Perm Puppet Theater. The play «Thick Notebook» by A. Christoph, staged by Alexander Yanushkevich at the Perm Puppet Theater, won the Russian national theatrical award «Golden Mask» in the nomination «The Best Puppet Theater» in 2016 year."
+        },
+        {
+          "dateText": "Since 2017",
+          "dateDescription": "Since 2017 - the main director of the Brest Regional Puppet Theater."
+        }
+      ],
+      "photo": "yanushkevich/photo.jpg",
+      "gallery": [
+        "yanushkevich/gallery-1.jpg",
+        "yanushkevich/gallery-2.jpg",
+        "yanushkevich/gallery-3.jpg",
+        "yanushkevich/gallery-4.jpg",
+        "yanushkevich/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
+      "works": [
+        {
+          "date": "2014",
+          "title": "«Oedipus» Puppet Theater «Gulliver», Kurgan, and the Creative Association «KultProekt», Moscow"
+        },
+        {
+          "date": "2016",
+          "title": "«Thick Notebook», Puppet Theater, Perm"
+        },
+        {
+          "date": "2019",
+          "title": "«Garden», Puppet Theater of the Republic of Karelia, Petrozavodsk"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Place of birth",
+          "placeCoords": "53.677834, 23.829529",
+          "placeDescription": "Grodno, Belarus"
+        },
+        {
+          "placeName": "Current place of work",
+          "placeCoords": "52.107324, 23.761010",
+          "placeDescription": "Brest Regional Puppet Theater (Chief Director)"
+        }
+      ]
+    },
+    {
+      "name": "Fedor Ivanovich Shmakov",
+      "bio": [
+        {
+          "dateText": "16/02/1917",
+          "dateDescription": "Fedor Ivanovich Shmakov was born in Petrograd"
+        },
+        {
+          "dateText": "1935-1939",
+          "dateDescription": "Entered the Leningrad Central Theater School (now St. Petersburg State Academy of Theatrical Art), which he graduated in 1939 (workshop of V.V. Merkuryev) and was accepted into the troupe of the State Russian Drama Theater of the Byelorussian SSR in Mogilev (now National Academic Drama Theater named after M. Gorky)."
+        },
+        {
+          "dateText": "1941",
+          "dateDescription": "The theater toured in Bialystok when the war began. At the same time F. Shmakov ended up in Vitebsk, where he moved to the 2nd Belarusian State Theater (now the National Academic Drama Theater named after Yakub Kolas), on which more than 200 roles, and since the 60s and put the performances as a director."
+        },
+        {
+          "dateText": "1944 year",
+          "dateDescription": "Worked in a front-line theater brigade."
+        },
+        {
+          "dateText": "since 1948",
+          "dateDescription": "Member of the CPSU(b)"
+        },
+        {
+          "dateText": "05/01/2009",
+          "dateDescription": "He died in Vitebsk at the age of 93. He was buried at the Mazurinsky cemetery in Vitebsk."
+        }
+      ],
+      "photo": "shmakov/photo.jpg",
+      "gallery": [
+        "shmakov/gallery-1.jpg",
+        "shmakov/gallery-2.jpg",
+        "shmakov/gallery-3.jpg",
+        "shmakov/gallery-4.jpg",
+        "shmakov/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
+      "works": [
+        {
+          "date": "1966",
+          "title": "«Fatherland» K.Chorny"
+        },
+        {
+          "date": "1970",
+          "title": "«Seventeen Moments of Spring» Y.Semyonov and V.Tokarev"
+        },
+        {
+          "date": "1974",
+          "title": "«Anxiety» A.Petrashkevich"
+        },
+        {
+          "date": "1999",
+          "title": "«Nesterka» V.Volsky"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Place of birth",
+          "placeCoords": "59.939095, 30.315868",
+          "placeDescription": "Petrograd (St. Petersburg), Russia"
+        },
+        {
+          "placeName": "Place of death",
+          "placeCoords": "55.183672, 30.204791",
+          "placeDescription": "Vitebsk, Belarus"
+        }
+      ]
+    }
+  ]
+}
