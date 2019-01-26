@@ -72,7 +72,7 @@ class App extends Component {
                                                 <a href="#" className="btn btn-primary">{this.state.interface.redirectToAuthor}</a>
                                             </div>
                                         </div>
-                                        <div className="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                                        <div className="col-xs-0 col-sm-0 col-md-1 col-lg-1"/>
                                         <div className="card col-xs-12 col-sm-12 col-md-7 col-lg-7">
                                             <div className={"text-wrap portal"}>
                                                 <h2>{this.state.interface.portal}</h2>
@@ -89,31 +89,31 @@ class App extends Component {
 
                                 <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                                     <a  href="https://github.com/DasneiN" target={"_blank"}><img
-                                        src={'/assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'}/></a><br></br>
+                                        src={'/assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'}/></a>
                                     <span>Aleh Maskaliou</span>
                                 </div>
 
                                 <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                                     <a  href="https://github.com/jrzlve" target={"_blank"}><img
-                                        src={'/assets/github/jrzlve.jpg'} className={'collaborator'} alt={'name'}/></a><br></br>
+                                        src={'/assets/github/jrzlve.jpg'} className={'collaborator'} alt={'name'}/></a>
                                     <span>Aleh Maskaliou</span>
                                 </div>
 
                                 <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                                     <a  href="https://github.com/KirillTK" target={"_blank"}><img
-                                        src={'/assets/github/KirillTK.jpg'} className={'collaborator'} alt={'name'}/></a><br></br>
+                                        src={'/assets/github/KirillTK.jpg'} className={'collaborator'} alt={'name'}/></a>
                                     <span>Aleh Maskaliou</span>
                                 </div>
 
                                 <div className={'collaborator-container col-xs-12 col-sm-6 col-md-6 col-lg'}>
                                     <a  href="https://github.com/ogurez" target={"_blank"}><img
-                                        src={'/assets/github/ogurez.jpg'} className={'collaborator'} alt={'name'}/></a><br></br>
+                                        src={'/assets/github/ogurez.jpg'} className={'collaborator'} alt={'name'}/></a>
                                     <span>Aleh Maskaliou</span>
                                 </div>
 
-                                <div className={'collaborator-container col-xs-12 col-sm-12 col-md-6 col-lg'}>
+                                <div className={'collaborator-container col-xs-12 col-sm-12 col-md-6 col-lg '}>
                                     <a  href="https://github.com/Ronavea" target={"_blank"}><img
-                                        src={'/assets/github/Ronavea.jpg'} className={'collaborator'} alt={'name'}/></a><br></br>
+                                        src={'/assets/github/Ronavea.jpg'} className={'collaborator'} alt={'name'}/></a>
                                     <span>Aleh Maskaliou</span>
                                 </div>
 
@@ -129,8 +129,8 @@ class App extends Component {
             return (
                 <div className="App">
                     <header className="App-header">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"/>
                     </div>
                     </header>
                 </div>
