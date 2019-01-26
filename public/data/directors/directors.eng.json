@@ -1,7 +1,7 @@
 {
   "directors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alexander Vitalyevich Yanushkevich",
       "bio": [
         {
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Fedor Ivanovich Shmakov",
       "bio": [
         {
@@ -139,6 +139,334 @@
           "placeName": "Place of death",
           "placeCoords": "55.183672, 30.204791",
           "placeDescription": "Vitebsk, Belarus"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Evgeny Anatolyevich Kryzhanovsky",
+      "bio": [
+        {
+          "dateText": "06/06/1955",
+          "dateDescription": "Yevgeny Anatolyevich Kryzhanovsky was born in Nikolaev (Ukrainian SSR)"
+        },
+        {
+          "dateText": "1973",
+          "dateDescription": "Entered the acting department of the Belarusian Theater and Art Institute."
+        },
+        {
+          "dateText": "1977",
+          "dateDescription": "Admitted to the troupe of the Yanka Kupala Academic Theater."
+        },
+        {
+          "dateText": "1986",
+          "dateDescription": "Together with Vladimir Pertsov and Yury Lesniy created the theater of satire and humor \"Christophor\""
+        },
+        {
+          "dateText": "2001 year",
+          "dateDescription": "He put forward his candidacy in the presidential election, collected 30 thousand signatures, but withdrew when he learned that only a native of Belarus can become President."
+        },
+        {
+          "dateText": "2007 year",
+          "dateDescription": "I joined the Liberal Democratic Party of Belarus. The reason for this, in his own words, was the lack of freedom of speech and systemic opposition. On October 3, 2008, he was appointed deputy chairman of the party and head of agitation and propaganda."
+        },
+        {
+          "dateText": "05/18/2008",
+          "dateDescription": "I visited Moscow. The purpose of the“ visit ”is to shoot in the ORT program“ Malakhov + ”on the topic of weight loss."
+        }
+      ],
+      "photo": "/data/directors/kryzhanovsky/photo.jpg",
+      "gallery": [
+        "/data/directors/kryzhanovsky/gallery-1.jpg",
+        "/data/directors/kryzhanovsky/gallery-2.jpg",
+        "/data/directors/kryzhanovsky/gallery-3.jpg",
+        "/data/directors/kryzhanovsky/gallery-4.jpg",
+        "/data/directors/kryzhanovsky/gallery-5.jpg",
+        "/data/directors/kryzhanovsky/gallery-6.jpg",
+        "/data/directors/kryzhanovsky/gallery-7.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
+      "works": [
+        {
+          "date": "1976",
+          "title": "Wreath of Sonnets"
+        },
+        {
+          "date": "1979",
+          "title": "The Amazing Adventures of Denis Korablev"
+        },
+        {
+          "date": "1980",
+          "title": "Aistonok"
+        },
+        {
+          "date": "1980",
+          "title": "This guy is back..."
+        },
+        {
+          "date": "1982",
+          "title": "Kupala night"
+        },
+        {
+          "date": "1982",
+          "title": "It all started with the cat..."
+        },
+        {
+          "date": "1985",
+          "title": "Go and see"
+        },
+        {
+          "date": "1988",
+          "title": "Whose Are You, Old Men?"
+        },
+        {
+          "date": "1989",
+          "title": "Notes of Samson Samosui"
+        },
+        {
+          "date": "1997",
+          "title": "Lokhovsky affairs"
+        },
+        {
+          "date": "2004",
+          "title": "Carousel"
+        },
+        {
+          "date": "2007",
+          "title": "Son"
+        },
+        {
+          "date": "2010",
+          "title": "Attempt"
+        },
+        {
+          "date": "2012",
+          "title": "Wolf Messing (TV series)"
+        },
+        {
+          "date": "2013",
+          "title": "We swear to protect (the series)"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Place of birth",
+          "placeCoords": "46.975033, 31.994577",
+          "placeDescription": "Nikolaev, Ukraine"
+        },
+        {
+          "placeName": "Founder of the theater \"Christophor\"",
+          "placeCoords": "53.899655, 27.555007",
+          "placeDescription": "Minsk, Belarus"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Roman Alekseevich Dervoed",
+      "bio": [
+        {
+          "dateText": "08/12/1985",
+          "dateDescription": "Roman Alekseevich Dervoed was born in Orsha (Belarusian SSR)"
+        },
+        {
+          "dateText": "2006 year",
+          "dateDescription": "He graduated from Mogilyov State College of Arts with a degree in theater and film actor."
+        },
+        {
+          "dateText": "2007 year",
+          "dateDescription": "Organized in Gomel the theater-studio \"Koleso\", was its artistic director and director."
+        },
+        {
+          "dateText": "Since 2008",
+          "dateDescription": "Actor, director of the National Academic Drama Theater named after M. Gorky."
+        },
+        {
+          "dateText": "2013 year",
+          "dateDescription": "Graduated from the Belarusian State Academy of Arts with a degree in drama direction."
+        }
+      ],
+      "photo": "/data/directors/dervoed/photo.jpg",
+      "gallery": [
+        "/data/directors/dervoed/gallery-1.jpg",
+        "/data/directors/dervoed/gallery-2.jpg",
+        "/data/directors/dervoed/gallery-3.jpg",
+        "/data/directors/dervoed/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
+      "works": [
+        {
+          "date": "2009",
+          "title": "Stepmother"
+        },
+        {
+          "date": "2010",
+          "title": "Oedipus"
+        },
+        {
+          "date": "2012",
+          "title": "Mysterious visit"
+        },
+        {
+          "date": "2012",
+          "title": "bless you"
+        },
+        {
+          "date": "2013",
+          "title": "Relatives"
+        },
+        {
+          "date": "2014",
+          "title": "Private purchase"
+        },
+        {
+          "date": "2015",
+          "title": "Dinner with Kira Knightley"
+        },
+        {
+          "date": "2015",
+          "title": "Midsummer Night's Dream or King Lir"
+        },
+        {
+          "date": "2015",
+          "title": "By prompting"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Place of birth",
+          "placeCoords": "54.510741, 30.429586",
+          "placeDescription": "Orsha, Belarus"
+        },
+        {
+          "placeName": "Gorky National Academic Drama Theater",
+          "placeCoords": "53.898445, 27.551185",
+          "placeDescription": "Actor, Director"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Vadim Vyacheslavovich Dopkyunas",
+      "bio": [
+        {
+          "dateText": "20/12/1940",
+          "dateDescription": "Vadim Vyacheslavovich Dopkyunas was born in Anadyr (Chukotka, Russia)"
+        },
+        {
+          "dateText": "1964 year",
+          "dateDescription": "He graduated from the Belarusian Theater and Art Institute with a degree in actor drama theater and cinema."
+        },
+        {
+          "dateText": "1967",
+          "dateDescription": "He graduated from the Belarusian Theater and Art Institute with a degree in drama director."
+        },
+        {
+          "dateText": "1978-1981 years",
+          "dateDescription": "Director of the Belarusian Youth Theater."
+        },
+        {
+          "dateText": "2007-2009 years",
+          "dateDescription": "Head of the literary and dramatic part and assistant art director of the National Academic Theater named after Yanka Kupala."
+        }
+      ],
+      "photo": "/data/directors/dopkyunas/photo.jpg",
+      "gallery": [
+        "/data/directors/dopkyunas/gallery-1.jpg",
+        "/data/directors/dopkyunas/gallery-2.jpg",
+        "/data/directors/dopkyunas/gallery-3.jpg",
+        "/data/directors/dopkyunas/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
+      "works": [
+        {
+          "date": "1966",
+          "title": "Farewell in June"
+        },
+        {
+          "date": "1978",
+          "title": "Talk, brother"
+        },
+        {
+          "date": "1982",
+          "title": "State Border"
+        },
+        {
+          "date": "2014",
+          "title": "Leaving Nature"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Place of birth",
+          "placeCoords": "64.733115, 177.508924",
+          "placeDescription": "Anadyr, Russia"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Valery Petrovich Moroz",
+      "bio": [
+        {
+          "dateText": "1941",
+          "dateDescription": "Valery Petrovich Moroz was born"
+        },
+        {
+          "dateText": "1966 year",
+          "dateDescription": "Founded by one of the oldest amateur theater groups in Belarus - Theater for Youth Creativity."
+        },
+        {
+          "dateText": "2009 year",
+          "dateDescription": "The Nesvizh Theater named after Urshuli Radzivill under the direction of V.P. Moroz was awarded the title \"Honored Amateur Group of the Republic of Belarus\"."
+        },
+        {
+          "dateText": "12/23/2009",
+          "dateDescription": "Dead"
+        }
+      ],
+      "photo": "/data/directors/moroz/photo.jpg",
+      "gallery": [
+        "/data/directors/moroz/gallery-1.jpg",
+        "/data/directors/moroz/gallery-2.jpg",
+        "/data/directors/moroz/gallery-3.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
+      "works": [
+        {
+          "date": "1987",
+          "title": "Apostate"
+        },
+        {
+          "date": "1989",
+          "title": "Untimely Spring"
+        },
+        {
+          "date": "1989",
+          "title": "Do not leave ..."
+        },
+        {
+          "date": "2003",
+          "title": "June 41st"
+        },
+        {
+          "date": "2003",
+          "title": "Anastasia Slutskaya"
+        },
+        {
+          "date": "2006",
+          "title": "Three Thalers"
+        },
+        {
+          "date": "2009",
+          "title": "The terrorist Ivanova"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Nesvizh Theater named after Urshuli Radziwill",
+          "placeCoords": "53.901061, 27.562896",
+          "placeDescription": "In 2009, the Nesvizhsky Theater named after Urshuli Radzivill under the direction of V.P. Moroz was awarded the title \"Honored Amateur Group of the Republic of Belarus\"."
         }
       ]
     }
