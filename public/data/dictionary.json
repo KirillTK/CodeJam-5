@@ -3,21 +3,24 @@
     "portalDescription": "blah-blah-blah",
     "redirectToAuthor": "go to",
     "desctiptionPortal": "blah-blah-blah",
-    "portal": "Portal",
-    "team": "Team"
+    "portal": "Culture Portal",
+    "team": "Team",
+    "searchInput": "Name"
   },
   "ru": {
     "portalDescription": "blah-blah-blah",
     "redirectToAuthor": "Перейти",
     "desctiptionPortal": "blah-blah-blah",
-    "portal": "Портал",
-    "team": "Команда"
+    "portal": "Портал о культуре",
+    "team": "Команда",
+    "searchInput": "Имя"
   },
   "by": {
     "portalDescription": "blah-blah-blah",
     "redirectToAuthor": "Перайсці",
     "desctiptionPortal": "blah-blah-blah",
-    "portal": "Партал",
-    "team": "Каманда"
+    "portal": "Партал пра культуру",
+    "team": "Каманда",
+    "searchInput": "Імя"
   }
 }

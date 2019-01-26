@@ -2,12 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import AuthListComponent from './components/auth-list/AuthList';
 
-const styles = {
-    root: {
-        flexGrow: 1,
-    },
-};
-
 
 class App extends Component {
 
@@ -18,7 +12,6 @@ class App extends Component {
         this.state = {
             isLoaded: false,
             authors: null,
-            language: 'ru',
             interface: null
         };
 
@@ -29,7 +22,7 @@ class App extends Component {
 
 
     componentDidMount() {
-      this.loadData();
+      this.loadData('ru');
     }
 
     componentWillUnmount() {
@@ -47,8 +40,6 @@ class App extends Component {
 
         if (this.state.authors !== null && this.state.interface !== null) {
             const authorOfDay = this.getRandomAuthor();
-            console.log('favourite', authorOfDay, this.state.interface, this.state.language);
-
 
             return (
                 <div className="App">
@@ -61,15 +52,7 @@ class App extends Component {
 
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul className="navbar-nav mr-auto">
-                                        <li className="nav-item active">
-                                            <a className="nav-link" href="#">{this.state.interface.team}<span
-                                                className="sr-only">(current)</span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">{this.state.interface.team}</a>
-                                        </li>
-                                    </ul>
+
                                 </div>
 
                                 <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
@@ -99,7 +82,7 @@ class App extends Component {
 
                             </section>
 
-                            <AuthListComponent authors={this.state.authors}/>
+                            <AuthListComponent authors={this.state.authors} interface={this.state.interface}/>
                         </div>
 
                     </header>
@@ -122,39 +105,45 @@ class App extends Component {
     }
 
 
-    async getAuthorData() {
-        return await fetch(`/data/directors/directors.${this.state.language}.json`).then(response => response.json()).then(value => value);
+    async getAuthorData(language) {
+        return await fetch(`/data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
     }
 
-    async getInterface() {
-        return await fetch('/data/dictionary.json').then(response => response.json()).then(value => value[this.state.language]);
+    async getInterface(language) {
+        return await fetch('/data/dictionary.json').then(response => response.json()).then(value => value[language]);
     }
 
-    async chooseEngLanguage() {
-        this.setState({language: 'eng'});
-        this.loadData();
+    chooseEngLanguage() {
+        this.clearState();
+        this.loadData('eng');
     }
 
-    async chooseRusLanguage() {
-        this.setState({language: 'ru'});
-        this.loadData();
+    chooseRusLanguage() {
+        this.clearState();
+        this.loadData('ru');
     }
 
-    async chooseByLanguage() {
-        this.setState({language: 'by'});
-        this.loadData();
+    chooseByLanguage() {
+
+        this.clearState();
+        this.loadData('by');
+
     }
 
 
-    loadData() {
-        this._asyncRequestForAuthors = this.getAuthorData().then(data => {
-            console.log('here', data);
+    loadData(language) {
+        this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
             this.setState({authors: data})
         });
 
-        this._asyncRequestForLanguage = this.getInterface().then(data => {
+        this._asyncRequestForLanguage = this.getInterface(language).then(data => {
             this.setState({interface: data});
         });
+    }
+
+    clearState(){
+        this.setState({authors: null});
+        this.setState({interface: null});
     }
 
 }
