@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import TimelineComponent from './components/Timeline';
-import BigPicture from "react-bigpicture";
+import BigPictureComponent from "./components/BigPicture/BigPicture";
 import './Auth.css';
 
 class AuthPage extends Component {
@@ -44,14 +44,7 @@ class AuthPage extends Component {
           </div>
           <div className="row mt-4 video_container">
             <h2>{this.state.interface.video}</h2>
-
-              <BigPicture
-                  type="youtube"
-                  src={this.currentAuthor.video}
-              >
-                  <img src="http://lorempixel.com/400/200/sports/3" alt={"Youtube overlay"}   className={"preview"} />
-              </BigPicture>
-
+            <BigPictureComponent link={this.currentAuthor.video} />
           </div>
           <div className="row mt-4">
             <h2>{this.state.interface.map}</h2>
