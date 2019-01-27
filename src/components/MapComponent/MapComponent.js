@@ -3,7 +3,7 @@ import { YMaps, Map, Placemark, FullscreenControl  } from 'react-yandex-maps';
 
 
 const mapState = {
-  center: [55.751574, 37.573856],
+  center: [53.9, 27.56667],
   zoom: 10,
 };
 
