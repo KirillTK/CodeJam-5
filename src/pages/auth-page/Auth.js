@@ -19,12 +19,12 @@ class AuthPage extends Component {
     const pageProps = (this.props.location.pathname).split('/');
 
     this.currentLanguage = pageProps[3];
-      this.currentAuthorId = pageProps[2] - 1;
+    this.currentAuthorId = pageProps[2] - 1;
 
     this.loadData(this.currentLanguage);
   }
 
-  render() {
+  render() {    
     if (this.state.authors !== null && this.state.interface !== null) {
 
       return (
@@ -72,8 +72,6 @@ class AuthPage extends Component {
               <h2>{this.state.interface.map}</h2>
             </div>
           </div>
-
-
         </div>
       );
     } else {
@@ -81,8 +79,7 @@ class AuthPage extends Component {
         <div className="App">
           <header className="App-header">
             <div className="progress">
-              <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                   aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"/>
+              <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"/>
             </div>
           </header>
         </div>
@@ -91,11 +88,10 @@ class AuthPage extends Component {
   }
 
   loadData(language) {
-
     this.language = language;
 
     this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
-      this.currentAuthor = data.directors.filter(director => director.id === this.currentAuthorId)[0];
+      this.currentAuthor = data.directors[this.currentAuthorId];
       this.setState({authors: data});
     });
 
