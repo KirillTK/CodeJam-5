@@ -17,7 +17,7 @@ class AuthPage extends Component {
   componentDidMount () {
       const pageProps = (this.props.location.pathname).split('/');
       this.currentLanguage = pageProps[3];
-      this.currentAuthorId = pageProps[2];
+      this.currentAuthorId = pageProps[2] - 1;
 
       this.loadData(this.currentLanguage);
   }
@@ -28,15 +28,21 @@ class AuthPage extends Component {
       return (
         <div className="container py-2 Auth">
           <div className="row justify-content-center">
-            <h1 className="display-4 author__page__header">Роман Алексеевич Дервоед</h1>
+            <h1 className="display-4 author__page__header">{this.currentAuthor.name}</h1>
           </div>
           <div className="row mt-4 justify-content-around">
             <div className="col-12 col-sm-8 col-md-4">
               <img src={this.currentAuthor.photo} alt="Author" className="img-fluid" />
             </div>
             <div className="col-12 col-sm-10 col-md-8">
-              <h2>{this.state.interface.biografy}</h2>
-              <TimelineComponent />
+              <div className="row">
+                <h2>{this.state.interface.biografy}</h2>
+                <TimelineComponent events={this.currentAuthor.bio} />
+              </div>
+              <div className="row">
+                <h2>{this.state.interface.works}</h2>
+                <TimelineComponent events={this.currentAuthor.works} />
+              </div>
             </div>
           </div>
           <div className="row mt-4">

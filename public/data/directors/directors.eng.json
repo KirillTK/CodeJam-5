@@ -48,16 +48,16 @@
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
         {
-          "date": "2014",
-          "title": "«Oedipus» Puppet Theater «Gulliver», Kurgan, and the Creative Association «KultProekt», Moscow"
+          "dateText": "2014",
+          "dateDescription": "«Oedipus» Puppet Theater «Gulliver», Kurgan, and the Creative Association «KultProekt», Moscow"
         },
         {
-          "date": "2016",
-          "title": "«Thick Notebook», Puppet Theater, Perm"
+          "dateText": "2016",
+          "dateDescription": "«Thick Notebook», Puppet Theater, Perm"
         },
         {
-          "date": "2019",
-          "title": "«Garden», Puppet Theater of the Republic of Karelia, Petrozavodsk"
+          "dateText": "2019",
+          "dateDescription": "«Garden», Puppet Theater of the Republic of Karelia, Petrozavodsk"
         }
       ],
       "map": [
@@ -113,20 +113,20 @@
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
         {
-          "date": "1966",
-          "title": "«Fatherland» K.Chorny"
+          "dateText": "1966",
+          "dateDescription": "«Fatherland» K.Chorny"
         },
         {
-          "date": "1970",
-          "title": "«Seventeen Moments of Spring» Y.Semyonov and V.Tokarev"
+          "dateText": "1970",
+          "dateDescription": "«Seventeen Moments of Spring» Y.Semyonov and V.Tokarev"
         },
         {
-          "date": "1974",
-          "title": "«Anxiety» A.Petrashkevich"
+          "dateText": "1974",
+          "dateDescription": "«Anxiety» A.Petrashkevich"
         },
         {
-          "date": "1999",
-          "title": "«Nesterka» V.Volsky"
+          "dateText": "1999",
+          "dateDescription": "«Nesterka» V.Volsky"
         }
       ],
       "map": [
@@ -188,64 +188,64 @@
       "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
       "works": [
         {
-          "date": "1976",
-          "title": "Wreath of Sonnets"
+          "dateText": "1976",
+          "dateDescription": "Wreath of Sonnets"
         },
         {
-          "date": "1979",
-          "title": "The Amazing Adventures of Denis Korablev"
+          "dateText": "1979",
+          "dateDescription": "The Amazing Adventures of Denis Korablev"
         },
         {
-          "date": "1980",
-          "title": "Aistonok"
+          "dateText": "1980",
+          "dateDescription": "Aistonok"
         },
         {
-          "date": "1980",
-          "title": "This guy is back..."
+          "dateText": "1980",
+          "dateDescription": "This guy is back..."
         },
         {
-          "date": "1982",
-          "title": "Kupala night"
+          "dateText": "1982",
+          "dateDescription": "Kupala night"
         },
         {
-          "date": "1982",
-          "title": "It all started with the cat..."
+          "dateText": "1982",
+          "dateDescription": "It all started with the cat..."
         },
         {
-          "date": "1985",
-          "title": "Go and see"
+          "dateText": "1985",
+          "dateDescription": "Go and see"
         },
         {
-          "date": "1988",
-          "title": "Whose Are You, Old Men?"
+          "dateText": "1988",
+          "dateDescription": "Whose Are You, Old Men?"
         },
         {
-          "date": "1989",
-          "title": "Notes of Samson Samosui"
+          "dateText": "1989",
+          "dateDescription": "Notes of Samson Samosui"
         },
         {
-          "date": "1997",
-          "title": "Lokhovsky affairs"
+          "dateText": "1997",
+          "dateDescription": "Lokhovsky affairs"
         },
         {
-          "date": "2004",
-          "title": "Carousel"
+          "dateText": "2004",
+          "dateDescription": "Carousel"
         },
         {
-          "date": "2007",
-          "title": "Son"
+          "dateText": "2007",
+          "dateDescription": "Son"
         },
         {
-          "date": "2010",
-          "title": "Attempt"
+          "dateText": "2010",
+          "dateDescription": "Attempt"
         },
         {
-          "date": "2012",
-          "title": "Wolf Messing (TV series)"
+          "dateText": "2012",
+          "dateDescription": "Wolf Messing (TV series)"
         },
         {
-          "date": "2013",
-          "title": "We swear to protect (the series)"
+          "dateText": "2013",
+          "dateDescription": "We swear to protect (the series)"
         }
       ],
       "map": [
@@ -296,40 +296,40 @@
       "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
       "works": [
         {
-          "date": "2009",
-          "title": "Stepmother"
+          "dateText": "2009",
+          "dateDescription": "Stepmother"
         },
         {
-          "date": "2010",
-          "title": "Oedipus"
+          "dateText": "2010",
+          "dateDescription": "Oedipus"
         },
         {
-          "date": "2012",
-          "title": "Mysterious visit"
+          "dateText": "2012",
+          "dateDescription": "Mysterious visit"
         },
         {
-          "date": "2012",
-          "title": "bless you"
+          "dateText": "2012",
+          "dateDescription": "bless you"
         },
         {
-          "date": "2013",
-          "title": "Relatives"
+          "dateText": "2013",
+          "dateDescription": "Relatives"
         },
         {
-          "date": "2014",
-          "title": "Private purchase"
+          "dateText": "2014",
+          "dateDescription": "Private purchase"
         },
         {
-          "date": "2015",
-          "title": "Dinner with Kira Knightley"
+          "dateText": "2015",
+          "dateDescription": "Dinner with Kira Knightley"
         },
         {
-          "date": "2015",
-          "title": "Midsummer Night's Dream or King Lir"
+          "dateText": "2015",
+          "dateDescription": "Midsummer Night's Dream or King Lir"
         },
         {
-          "date": "2015",
-          "title": "By prompting"
+          "dateText": "2015",
+          "dateDescription": "By prompting"
         }
       ],
       "map": [
@@ -380,20 +380,20 @@
       "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
       "works": [
         {
-          "date": "1966",
-          "title": "Farewell in June"
+          "dateText": "1966",
+          "dateDescription": "Farewell in June"
         },
         {
-          "date": "1978",
-          "title": "Talk, brother"
+          "dateText": "1978",
+          "dateDescription": "Talk, brother"
         },
         {
-          "date": "1982",
-          "title": "State Border"
+          "dateText": "1982",
+          "dateDescription": "State Border"
         },
         {
-          "date": "2014",
-          "title": "Leaving Nature"
+          "dateText": "2014",
+          "dateDescription": "Leaving Nature"
         }
       ],
       "map": [
@@ -434,32 +434,32 @@
       "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
       "works": [
         {
-          "date": "1987",
-          "title": "Apostate"
+          "dateText": "1987",
+          "dateDescription": "Apostate"
         },
         {
-          "date": "1989",
-          "title": "Untimely Spring"
+          "dateText": "1989",
+          "dateDescription": "Untimely Spring"
         },
         {
-          "date": "1989",
-          "title": "Do not leave ..."
+          "dateText": "1989",
+          "dateDescription": "Do not leave ..."
         },
         {
-          "date": "2003",
-          "title": "June 41st"
+          "dateText": "2003",
+          "dateDescription": "June 41st"
         },
         {
-          "date": "2003",
-          "title": "Anastasia Slutskaya"
+          "dateText": "2003",
+          "dateDescription": "Anastasia Slutskaya"
         },
         {
-          "date": "2006",
-          "title": "Three Thalers"
+          "dateText": "2006",
+          "dateDescription": "Three Thalers"
         },
         {
-          "date": "2009",
-          "title": "The terrorist Ivanova"
+          "dateText": "2009",
+          "dateDescription": "The terrorist Ivanova"
         }
       ],
       "map": [
