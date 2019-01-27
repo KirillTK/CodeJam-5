@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 class App extends Component {
 
-
     constructor(props) {
         super(props);
 
@@ -15,7 +14,6 @@ class App extends Component {
             interface: null
         };
     }
-
 
     componentDidMount() {
         this.loadData('ru');
@@ -43,15 +41,18 @@ class App extends Component {
 
                   <header className="App-header">
                     <nav className="navbar navbar-light bg-light">
-                          <h1>{this.state.interface.portal}</h1>
-                          <div>
-                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
-                              onClick={this.setLanguage.bind(this, 'by')} alt={'flag'} />
-                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/eng.png'}
-                              onClick={this.setLanguage.bind(this, 'eng')} alt={'flag'} />
-                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/ru.png'}
-                              onClick={this.setLanguage.bind(this, 'ru')} alt={'flag'} />
-                                </div>
+                      <h1>{this.state.interface.portal}</h1>
+                      <div>
+                        {
+                          ["by", "eng", "ru"].map(v => (
+                            <img key={v}
+                              className="btn my-2 my-sm-0 flag"
+                              src={'/assets/flags/'+ v +'.png'}
+                              onClick={this.setLanguage.bind(this, v)} alt={'flag'}
+                              disabled={this.language === v} />
+                          ))
+                        }
+                      </div>
                     </nav>
                   </header>
 
@@ -133,7 +134,6 @@ class App extends Component {
     getRandomAuthor() {
         return this.state.authors.directors[Math.floor(Math.random() * this.state.authors.directors.length)];
     }
-
 
     async getAuthorData(language) {
         return await fetch(`/data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
