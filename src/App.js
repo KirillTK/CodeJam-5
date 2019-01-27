@@ -46,7 +46,7 @@ class App extends Component {
                 <div className="App">
 
                   <header className="App-header">
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav className="navbar navbar-light bg-light">
                           <h1>{this.state.interface.portal}</h1>
                           <div>
                             <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
@@ -60,7 +60,6 @@ class App extends Component {
                   </header>
 
                         <div className="container">
-
                             <section className={"desctiption"}>
                                 <div className="container">
                                     <div className="row author-section">
@@ -76,7 +75,8 @@ class App extends Component {
                                         <div className="card col-xs-12 col-sm-12 col-md-7 col-lg-7">
                                             <div className={"text-wrap portal"}>
                                                 <h2>{this.state.interface.portal}</h2>
-                                                {this.state.interface.desctiptionPortal}
+                                                <p>{this.state.interface.portalDescription}</p>
+                                                <Link to="/list/">Перейти к списку режиссёров</Link>
                                             </div>
                                         </div>
                                     </div>
