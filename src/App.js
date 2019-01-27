@@ -45,23 +45,21 @@ class App extends Component {
             return (
                 <div className="App">
 
-                    <header className="App-header">
+                  <header className="App-header">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                          <h1>{this.state.interface.portal}</h1>
+                          <div>
+                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
+                              onClick={this.chooseByLanguage} alt={'flag'} />
+                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/eng.png'}
+                              onClick={this.chooseEngLanguage} alt={'flag'} />
+                            <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/ru.png'}
+                              onClick={this.chooseRusLanguage} alt={'flag'} />
+                          </div>
+                    </nav>
+                  </header>
 
                         <div className="container">
-                            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                                <h1>{this.state.interface.portal}</h1>
-
-
-                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-                                </div>
-                                <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
-                                     onClick={this.chooseByLanguage} alt={'flag'}/>
-                                <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/eng.png'}
-                                     onClick={this.chooseEngLanguage} alt={'flag'}/>
-                                <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/ru.png'}
-                                     onClick={this.chooseRusLanguage} alt={'flag'}/>
-                            </nav>
 
                             <section className={"desctiption"}>
                                 <div className="container">
@@ -124,9 +122,7 @@ class App extends Component {
                             </nav>
 
                         </div>
-
-                    </header>
-                </div>
+                      </div>
             );
         } else {
             return (
