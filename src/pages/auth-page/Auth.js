@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import TimelineComponent from '../../components/Timeline/Timeline';
+import TimelineComponent from './components/Timeline';
+import BigPictureComponent from "../../components/BigPicture/BigPicture";
 import './Auth.css';
 
 class AuthPage extends Component {
@@ -45,13 +46,28 @@ class AuthPage extends Component {
             </div>
           </div>
           <div className="row mt-4">
-            <h2>{this.state.interface.photo}</h2>
+            <div className="col-12">
+              <h2>{this.state.interface.photo}</h2>
+            </div>
+          </div>
+          <div className="row mt-4 video_container">
+            <div className="col-12">
+              <div className="row">
+                <div className="col-12">
+                  <h2>{this.state.interface.video}</h2>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+                  <BigPictureComponent link={this.currentAuthor.video} />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row mt-4">
-            <h2>{this.state.interface.video}</h2>
-          </div>
-          <div className="row mt-4">
-            <h2>{this.state.interface.map}</h2>
+            <div className="col-12">
+              <h2>{this.state.interface.map}</h2>
+            </div>
           </div>
         </div>
       );
