@@ -9,8 +9,8 @@ class GalleryComponent extends Component {
 
   render() {
     return (<div className="Gallery">
-        <Carousel showThumbs={false} width={"500px"} dynamicHeight={true}>
-          {this.renderSlide()}
+      <Carousel showThumbs={false} width={"500px"} dynamicHeight={true}>
+        {this.renderSlide()}
       </Carousel>
     </div>)
   }
