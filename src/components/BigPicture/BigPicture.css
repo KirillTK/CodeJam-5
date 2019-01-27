@@ -1,0 +1,22 @@
+.bigpicture.link {
+  position: relative;
+}
+
+  .bigpicture.link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.5) url(./play.svg) no-repeat center center / auto 0%;
+    transition: all 0.3s linear;
+    opacity: 0;
+  }
+
+  .bigpicture.link:hover:before {
+    opacity: 1;
+    cursor: pointer;
+    background-size: auto 50%;
+  }

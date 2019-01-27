@@ -12,7 +12,7 @@ class BigPictureComponent extends Component {
         type="youtube"
         src={this.props.link}
       >
-        <img src={"http://img.youtube.com/vi/" + videoId + "/mqdefault.jpg"} alt={"Видео о режиссере"} className={"preview"} />
+        <img src={"http://img.youtube.com/vi/" + videoId + "/mqdefault.jpg"} alt={"Видео о режиссере"} className="img-fluid" />
       </BigPicture>
     )
   }
