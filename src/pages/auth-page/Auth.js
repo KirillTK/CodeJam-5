@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TimelineComponent from '../../components/Timeline';
+import TimelineComponent from '../../components/Timeline/Timeline';
 import './Auth.css';
 
 class AuthPage extends Component {
@@ -16,7 +16,7 @@ class AuthPage extends Component {
   componentDidMount () {
       const pageProps = (this.props.location.pathname).split('/');
       this.currentLanguage = pageProps[3];
-      this.currentAuthorId = pageProps[2];
+      this.currentAuthorId = pageProps[2] - 1;
 
       this.loadData(this.currentLanguage);
   }
