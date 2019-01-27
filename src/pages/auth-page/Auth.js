@@ -16,7 +16,7 @@ class AuthPage extends Component {
 
   componentDidMount() {
     const pageProps = (this.props.location.pathname).split('/');
-    console.log('pageProps', pageProps);
+
     this.currentLanguage = pageProps[3];
     this.currentAuthorId = pageProps[2];
 
