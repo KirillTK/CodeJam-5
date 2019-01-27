@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import TimelineComponent from '../../components/Timeline/Timeline';
 import GalleryComponent from '../../components/gallery/Gallery';
@@ -34,7 +35,7 @@ class AuthPage extends Component {
         <div>
           <header className="App-header">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-              <h1><a href={window.location.origin}><small>{this.state.interface.portal}</small></a></h1>
+              <h1><Link to="/"><small>{this.state.interface.portal}</small></Link></h1>
             </nav>
           </header>
           <div className="container py-2 Auth">
