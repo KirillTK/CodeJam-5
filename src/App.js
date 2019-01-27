@@ -14,10 +14,6 @@ class App extends Component {
             authors: null,
             interface: null
         };
-
-        this.chooseByLanguage = this.chooseByLanguage.bind(this);
-        this.chooseEngLanguage = this.chooseEngLanguage.bind(this);
-        this.chooseRusLanguage = this.chooseRusLanguage.bind(this);
     }
 
 
@@ -50,12 +46,12 @@ class App extends Component {
                           <h1>{this.state.interface.portal}</h1>
                           <div>
                             <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/by.png'}
-                              onClick={this.chooseByLanguage} alt={'flag'} />
+                              onClick={this.setLanguage.bind(this, 'by')} alt={'flag'} />
                             <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/eng.png'}
-                              onClick={this.chooseEngLanguage} alt={'flag'} />
+                              onClick={this.setLanguage.bind(this, 'eng')} alt={'flag'} />
                             <img className="btn my-2 my-sm-0 flag" src={'/assets/flags/ru.png'}
-                              onClick={this.chooseRusLanguage} alt={'flag'} />
-                          </div>
+                              onClick={this.setLanguage.bind(this, 'ru')} alt={'flag'} />
+                                </div>
                     </nav>
                   </header>
 
@@ -147,41 +143,29 @@ class App extends Component {
         return await fetch('/data/dictionary.json').then(response => response.json()).then(value => value[language]);
     }
 
-    chooseEngLanguage() {
-        this.clearState();
-        this.loadData('eng');
-    }
-
-    chooseRusLanguage() {
-        this.clearState();
-        this.loadData('ru');
-    }
-
-    chooseByLanguage() {
-
-        this.clearState();
-        this.loadData('by');
-
-    }
+  setLanguage(lang) {
+    this.clearState();
+    this.loadData(lang);
+  }
 
 
-    loadData(language) {
+  loadData(language) {
 
-        this.language = language;
+      this.language = language;
 
-        this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
-            this.setState({authors: data})
-        });
+      this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
+          this.setState({authors: data})
+      });
 
-        this._asyncRequestForLanguage = this.getInterface(language).then(data => {
-            this.setState({interface: data});
-        });
-    }
+      this._asyncRequestForLanguage = this.getInterface(language).then(data => {
+          this.setState({interface: data});
+      });
+  }
 
-    clearState() {
-        this.setState({authors: null});
-        this.setState({interface: null});
-    }
+  clearState() {
+      this.setState({authors: null});
+      this.setState({interface: null});
+  }
 
 }
 
