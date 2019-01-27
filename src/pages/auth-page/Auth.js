@@ -61,7 +61,7 @@ class AuthPage extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+                <div className="col-12 text-center">
                   <BigPictureComponent link={this.currentAuthor.video} />
                 </div>
               </div>
