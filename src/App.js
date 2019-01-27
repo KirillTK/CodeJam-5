@@ -85,7 +85,8 @@ class App extends Component {
 
                     <AuthListComponent authors={this.state.authors} interface={this.state.interface} language={this.language} />
 
-                    <nav className="navbar navbar-dark bg-dark container row team">
+                    <nav className="navbar navbar-dark bg-dark container row team align-items-start py-4">
+                      <h2 className="text-center" style={{width: "100%", color: "#fff"}}>{this.state.interface.team}</h2>
                       <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                         <a href="https://github.com/DasneiN" target={"_blank"}><img
                           src={'/assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'} /></a>
