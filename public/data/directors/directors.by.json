@@ -48,16 +48,16 @@
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
         {
-          "date": "2014",
-          "title": "«Эдып», Тэатр лялек «Гулівер», Курган, і Творчае аб'яднанне «КультПроект», Масква"
+          "dateText": "2014",
+          "dateDescription": "«Эдып», Тэатр лялек «Гулівер», Курган, і Творчае аб'яднанне «КультПроект», Масква"
         },
         {
-          "date": "2016",
-          "title": "«Тоўсты сшытак», Тэатр лялек, Перм"
+          "dateText": "2016",
+          "dateDescription": "«Тоўсты сшытак», Тэатр лялек, Перм"
         },
         {
-          "date": "2019",
-          "title": "«Сад», Тэатр лялек Рэспублікі Карэлія, Петразаводск"
+          "dateText": "2019",
+          "dateDescription": "«Сад», Тэатр лялек Рэспублікі Карэлія, Петразаводск"
         }
       ],
       "map": [
@@ -113,20 +113,20 @@
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
         {
-          "date": "1966",
-          "title": "«Бацькаўшчына» К. Чорнага"
+          "dateText": "1966",
+          "dateDescription": "«Бацькаўшчына» К. Чорнага"
         },
         {
-          "date": "1970",
-          "title": "«Сямнаццаць імгненняў вясны» Ю. Сямёнава і У. Токарава"
+          "dateText": "1970",
+          "dateDescription": "«Сямнаццаць імгненняў вясны» Ю. Сямёнава і У. Токарава"
         },
         {
-          "date": "1974",
-          "title": "«Трывога» А. Петрашкевіча"
+          "dateText": "1974",
+          "dateDescription": "«Трывога» А. Петрашкевіча"
         },
         {
-          "date": "1999",
-          "title": "«Несцерка» В.Вольскага"
+          "dateText": "1999",
+          "dateDescription": "«Несцерка» В.Вольскага"
         }
       ],
       "map": [
@@ -188,64 +188,64 @@
       "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
       "works": [
         {
-          "date": "1976",
-          "title": "Вянок санетаў"
+          "dateText": "1976",
+          "dateDescription": "Вянок санетаў"
         },
         {
-          "date": "1979",
-          "title": "Дзіўныя прыгоды Дзяніса Кораблёва"
+          "dateText": "1979",
+          "dateDescription": "Дзіўныя прыгоды Дзяніса Кораблёва"
         },
         {
-          "date": "1980",
-          "title": "бусляня"
+          "dateText": "1980",
+          "dateDescription": "бусляня"
         },
         {
-          "date": "1980",
-          "title": "Вось вярнуўся гэты хлопец ..."
+          "dateText": "1980",
+          "dateDescription": "Вось вярнуўся гэты хлопец ..."
         },
         {
-          "date": "1982",
-          "title": "Купальская ноч"
+          "dateText": "1982",
+          "dateDescription": "Купальская ноч"
         },
         {
-          "date": "1982",
-          "title": "З кошкі ўсё і пачалося ..."
+          "dateText": "1982",
+          "dateDescription": "З кошкі ўсё і пачалося ..."
         },
         {
-          "date": "1985",
-          "title": "Ідзі і глядзі"
+          "dateText": "1985",
+          "dateDescription": "Ідзі і глядзі"
         },
         {
-          "date": "1988",
-          "title": "Вы чыё, старичьё?"
+          "dateText": "1988",
+          "dateDescription": "Вы чыё, старичьё?"
         },
         {
-          "date": "1989",
-          "title": "Запiскi Самсона Самосуя"
+          "dateText": "1989",
+          "dateDescription": "Запiскi Самсона Самосуя"
         },
         {
-          "date": "1997",
-          "title": "Справы лахоўскі"
+          "dateText": "1997",
+          "dateDescription": "Справы лахоўскі"
         },
         {
-          "date": "2004",
-          "title": "Карусель"
+          "dateText": "2004",
+          "dateDescription": "Карусель"
         },
         {
-          "date": "2007",
-          "title": "Сынок"
+          "dateText": "2007",
+          "dateDescription": "Сынок"
         },
         {
-          "date": "2010",
-          "title": "Замах"
+          "dateText": "2010",
+          "dateDescription": "Замах"
         },
         {
-          "date": "2012",
-          "title": "Вольф Месінга (серыял)"
+          "dateText": "2012",
+          "dateDescription": "Вольф Месінга (серыял)"
         },
         {
-          "date": "2013",
-          "title": "Клянёмся абараняць (серыял)"
+          "dateText": "2013",
+          "dateDescription": "Клянёмся абараняць (серыял)"
         }
       ],
       "map": [
@@ -296,40 +296,40 @@
       "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
       "works": [
         {
-          "date": "2009",
-          "title": "Мачаха"
+          "dateText": "2009",
+          "dateDescription": "Мачаха"
         },
         {
-          "date": "2010",
-          "title": "Эдып"
+          "dateText": "2010",
+          "dateDescription": "Эдып"
         },
         {
-          "date": "2012",
-          "title": "Загадкавы візіт"
+          "dateText": "2012",
+          "dateDescription": "Загадкавы візіт"
         },
         {
-          "date": "2012",
-          "title": "Бывайце здаровы"
+          "dateText": "2012",
+          "dateDescription": "Бывайце здаровы"
         },
         {
-          "date": "2013",
-          "title": "Радня"
+          "dateText": "2013",
+          "dateDescription": "Радня"
         },
         {
-          "date": "2014",
-          "title": "Прыватная закупка"
+          "dateText": "2014",
+          "dateDescription": "Прыватная закупка"
         },
         {
-          "date": "2015",
-          "title": "Вячэра з Кірай Найтлі"
+          "dateText": "2015",
+          "dateDescription": "Вячэра з Кірай Найтлі"
         },
         {
-          "date": "2015",
-          "title": "Сон у летнюю ноч або Кароль лір"
+          "dateText": "2015",
+          "dateDescription": "Сон у летнюю ноч або Кароль лір"
         },
         {
-          "date": "2015",
-          "title": "Па шчупаковым загадзе"
+          "dateText": "2015",
+          "dateDescription": "Па шчупаковым загадзе"
         }
       ],
       "map": [
@@ -380,20 +380,20 @@
       "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
       "works": [
         {
-          "date": "1966",
-          "title": "Развітанне ў чэрвені"
+          "dateText": "1966",
+          "dateDescription": "Развітанне ў чэрвені"
         },
         {
-          "date": "1978",
-          "title": "Пагаворым, брат"
+          "dateText": "1978",
+          "dateDescription": "Пагаворым, брат"
         },
         {
-          "date": "1982",
-          "title": "Дзяржаўная мяжа"
+          "dateText": "1982",
+          "dateDescription": "Дзяржаўная мяжа"
         },
         {
-          "date": "2014",
-          "title": "Якая сыходзіць натура"
+          "dateText": "2014",
+          "dateDescription": "Якая сыходзіць натура"
         }
       ],
       "map": [
@@ -434,32 +434,32 @@
       "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
       "works": [
         {
-          "date": "1987",
-          "title": "Адступнік"
+          "dateText": "1987",
+          "dateDescription": "Адступнік"
         },
         {
-          "date": "1989",
-          "title": "Несрочная вясна"
+          "dateText": "1989",
+          "dateDescription": "Несрочная вясна"
         },
         {
-          "date": "1989",
-          "title": "Не пакідай ..."
+          "dateText": "1989",
+          "dateDescription": "Не пакідай ..."
         },
         {
-          "date": "2003",
-          "title": "У чэрвені 41-га"
+          "dateText": "2003",
+          "dateDescription": "У чэрвені 41-га"
         },
         {
-          "date": "2003",
-          "title": "Анастасія Слуцкая"
+          "dateText": "2003",
+          "dateDescription": "Анастасія Слуцкая"
         },
         {
-          "date": "2006",
-          "title": "Тры талеры"
+          "dateText": "2006",
+          "dateDescription": "Тры талеры"
         },
         {
-          "date": "2009",
-          "title": "Тэрарыстка Іванова"
+          "dateText": "2009",
+          "dateDescription": "Тэрарыстка Іванова"
         }
       ],
       "map": [

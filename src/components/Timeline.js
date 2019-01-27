@@ -2,10 +2,28 @@ import React, { Component } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
 class TimelineComponent extends Component {
+  constructor(props) {
+    super(props);
+
+    this.events = props.events;
+  }
+  
   render() {
+    const timelines = this.events.map((event, i) => {
+      return (
+        <TimelineItem
+          key={i}
+          dateText={event.dateText}
+        >
+          <h4>{event.dateDescription}</h4>
+        </TimelineItem>
+      )
+    });
+    
     return (
       <Timeline lineColor={'#ddd'}>
-        <TimelineItem
+        {timelines}
+        {/* <TimelineItem
           key="001"
           dateText="08/12/1985"
           style={{ color: '#e86971' }}
@@ -37,7 +55,7 @@ class TimelineComponent extends Component {
           dateInnerStyle={{ background: '#76bb7f' }}
         >
           <h4>Актёр, режиссёр Национального академического драматического театра имени М.Горького.</h4>
-        </TimelineItem>
+        </TimelineItem> */}
       </Timeline>
     )
   }

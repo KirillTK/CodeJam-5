@@ -8,6 +8,7 @@
     "searchInput": "Name",
     "authorDay": "Author of the day",
     "biografy": "Biografy",
+    "works": "Works",
     "photo": "Gallery",
     "video": "Video",
     "map": "Map"
@@ -21,6 +22,7 @@
     "searchInput": "Имя",
     "authorDay": "Автор дня",
     "biografy": "Биография",
+    "works": "Работы",
     "photo": "Фотографии",
     "video": "Видео",
     "map": "Памятные места"
@@ -34,6 +36,7 @@
     "searchInput": "Імя",
     "authorDay": "Аўтар дня",
     "biografy": "Жыццё",
+    "works": "Творчасць",
     "photo": "Фотаздымкі",
     "video": "Відэа",
     "map": "Памятныя мясціны"
