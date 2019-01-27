@@ -6,7 +6,11 @@
     "portal": "Culture Portal",
     "team": "Team",
     "searchInput": "Name",
-    "authorDay": "Author of the day"
+    "authorDay": "Author of the day",
+    "biografy": "Biografy",
+    "photo": "Gallery",
+    "video": "Video",
+    "map": "Map"
   },
   "ru": {
     "portalDescription": "blah-blah-blah",
@@ -15,7 +19,11 @@
     "portal": "Портал о культуре",
     "team": "Команда",
     "searchInput": "Имя",
-    "authorDay": "Автор дня"
+    "authorDay": "Автор дня",
+    "biografy": "Биография",
+    "photo": "Фотографии",
+    "video": "Видео",
+    "map": "Памятные места"
   },
   "by": {
     "portalDescription": "blah-blah-blah",
@@ -24,6 +32,10 @@
     "portal": "Партал пра культуру",
     "team": "Каманда",
     "searchInput": "Імя",
-    "authorDay": "Аўтар дня"
+    "authorDay": "Аўтар дня",
+    "biografy": "Жыццё",
+    "photo": "Фотаздымкі",
+    "video": "Відэа",
+    "map": "Памятныя мясціны"
   }
 }
