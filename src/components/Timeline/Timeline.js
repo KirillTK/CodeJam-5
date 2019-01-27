@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
+import './Timeline.css';
+
 class TimelineComponent extends Component {
   constructor(props) {
     super(props);
