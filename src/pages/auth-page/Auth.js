@@ -39,11 +39,11 @@ class AuthPage extends Component {
             <div className="col-12 col-sm-10 col-md-8">
               <div className="row">
                 <h2>{this.state.interface.biografy}</h2>
-                <TimelineComponent events={this.currentAuthor.bio}/>
+                <TimelineComponent events={this.currentAuthor.bio} />
               </div>
               <div className="row">
                 <h2>{this.state.interface.works}</h2>
-                <TimelineComponent events={this.currentAuthor.works}/>
+                <TimelineComponent events={this.currentAuthor.works} bgColor="#61b8ff" />
               </div>
             </div>
           </div>

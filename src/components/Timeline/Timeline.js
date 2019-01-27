@@ -11,11 +11,15 @@ class TimelineComponent extends Component {
   }
   
   render() {
-    const timelines = this.events.map((event, i) => {
+    const bgColor = this.props.bgColor || '#e86971';
+    
+    const timelines = this.events.map((event, i) => {        
       return (
         <TimelineItem
           key={i}
           dateText={event.dateText}
+          style={{ color: bgColor }}
+          dateInnerStyle={{ background: bgColor, color: '#fff' }}
         >
           <h4>{event.dateDescription}</h4>
         </TimelineItem>
