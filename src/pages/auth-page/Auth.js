@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
+
 import TimelineComponent from '../../components/Timeline/Timeline';
 import GalleryComponent from '../../components/gallery/Gallery';
 import BigPictureComponent from "../../components/BigPicture/BigPicture";
+import MapComponent from "../../components/MapComponent/MapComponent";
+
 import './Auth.css';
 
 class AuthPage extends Component {
@@ -70,6 +73,7 @@ class AuthPage extends Component {
           <div className="row mt-4">
             <div className="col-12">
               <h2>{this.state.interface.map}</h2>
+              <MapComponent />
             </div>
           </div>
         </div>
