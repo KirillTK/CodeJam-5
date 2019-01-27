@@ -30,7 +30,6 @@ class AuthPage extends Component {
 
   render() {    
     if (this.state.authors !== null && this.state.interface !== null) {
-
       return (
         <div>
           <header className="App-header">
