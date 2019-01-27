@@ -79,7 +79,7 @@ class AuthPage extends Component {
     this.language = language;
 
     this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
-      this.currentAuthor = data.directors[this.currentAuthorId - 1];
+      this.currentAuthor = data.directors.filter(director => director.id === this.currentAuthorId)[0];
       this.setState({authors: data});
     });
 
