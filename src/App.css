@@ -35,11 +35,19 @@
     margin: 2em 0;
 }
 
-.collaborator {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
+  .collaborator-container a .collaborator {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0);
+      transition: all 0.3s linear;
+  }
+
+  .collaborator-container a:hover .collaborator {
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 0 0 10px 2px #000;
+    transform: scale(1.1);
+  }
 
 .team {
     margin-top: 50px;

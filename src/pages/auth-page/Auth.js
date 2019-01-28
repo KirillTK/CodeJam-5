@@ -50,35 +50,39 @@ class AuthPage extends Component {
                   <h2>{this.state.interface.biografy}</h2>
                   <TimelineComponent events={this.currentAuthor.bio} />
                 </div>
-                <div className="row">
-                  <h2>{this.state.interface.works}</h2>
-                  <TimelineComponent events={this.currentAuthor.works} bgColor="#61b8ff" />
-                </div>
               </div>
             </div>
             <div className="row mt-4">
-              <div className="col-12">
-                <h2>{this.state.interface.photo}</h2>
-                <GalleryComponent photos={this.currentAuthor.gallery}/>
-              </div>
-            </div>
-            <div className="row mt-4 video_container">
-              <div className="col-12">
+              <div className="col-12 col-md-5">
                 <div className="row">
                   <div className="col-12">
                     <h2>{this.state.interface.video}</h2>
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-12 text-center">
+                  <div className="col-12">
                     <BigPictureComponent link={this.currentAuthor.video} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-7">
+                <div className="col-12">
+                  <div className="row">
+                    <h2>{this.state.interface.works}</h2>
+                    <TimelineComponent events={this.currentAuthor.works} bgColor="#61b8ff" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="row mt-4">
               <div className="col-12">
-                <h2>{this.state.interface.map}</h2>
+                <h2 className="text-center mb-4">{this.state.interface.photo}</h2>
+                <GalleryComponent photos={this.currentAuthor.gallery} />
+              </div>
+            </div>
+            <div className="row mt-4">
+              <div className="col-12">
+                <h2 className="text-center mb-4">{this.state.interface.map}</h2>
               <MapComponent coordinates = {this.currentAuthor.map} />
               </div>
             </div>
