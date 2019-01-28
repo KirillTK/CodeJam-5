@@ -33,7 +33,7 @@ class App extends Component {
                   ["by", "eng", "ru"].map(v => (
                     <img key={v}
                       className="btn my-2 my-sm-0 flag"
-                      src={'/assets/flags/' + v + '.png'}
+                      src={'./assets/flags/' + v + '.png'}
                       onClick={this.setLanguage.bind(this, v)} alt={'flag'}
                       disabled={this.language === v} />
                   ))
@@ -73,31 +73,31 @@ class App extends Component {
               <h2 className="text-center" style={{ width: "100%", color: "#fff" }}>{this.state.interface.team}</h2>
               <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                 <a href="https://github.com/DasneiN" target={"_blank"}><img
-                  src={'/assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'} /></a>
+                  src={'./assets/github/DasneiN.jpg'} className={'collaborator'} alt={'name'} /></a>
                 <span>Aleh Maskaliou</span>
               </div>
 
               <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                 <a href="https://github.com/jrzlve" target={"_blank"}><img
-                  src={'/assets/github/jrzlve.jpg'} className={'collaborator'} alt={'name'} /></a>
+                  src={'./assets/github/jrzlve.jpg'} className={'collaborator'} alt={'name'} /></a>
                 <span>Yaraslau Shybeka</span>
               </div>
 
               <div className={'collaborator-container col-xs-12 col-sm-6 col-md-4 col-lg'}>
                 <a href="https://github.com/KirillTK" target={"_blank"}><img
-                  src={'/assets/github/KirillTK.jpg'} className={'collaborator'} alt={'name'} /></a>
+                  src={'./assets/github/KirillTK.jpg'} className={'collaborator'} alt={'name'} /></a>
                 <span>Kiryl Tkachou</span>
               </div>
 
               <div className={'collaborator-container col-xs-12 col-sm-6 col-md-6 col-lg'}>
                 <a href="https://github.com/ogurez" target={"_blank"}><img
-                  src={'/assets/github/ogurez.jpg'} className={'collaborator'} alt={'name'} /></a>
+                  src={'./assets/github/ogurez.jpg'} className={'collaborator'} alt={'name'} /></a>
                 <span>Viachaslau Lapitski</span>
               </div>
 
               <div className={'collaborator-container col-xs-12 col-sm-12 col-md-6 col-lg '}>
                 <a href="https://github.com/Ronavea" target={"_blank"}><img
-                  src={'/assets/github/Ronavea.jpg'} className={'collaborator'} alt={'name'} /></a>
+                  src={'./assets/github/Ronavea.jpg'} className={'collaborator'} alt={'name'} /></a>
                 <span>Pavel Lushko</span>
               </div>
             </nav>
@@ -123,11 +123,11 @@ class App extends Component {
   }
 
   async getAuthorData(language) {
-    return await fetch(`/data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
+    return await fetch(`./data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
   }
 
   async getInterface(language) {
-    return await fetch('/data/dictionary.json').then(response => response.json()).then(value => value[language]);
+    return await fetch('./data/dictionary.json').then(response => response.json()).then(value => value[language]);
   }
 
   setLanguage(lang) {

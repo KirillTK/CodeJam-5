@@ -116,11 +116,11 @@ class AuthPage extends Component {
   }
 
   async getInterface(language) {
-    return await fetch('/data/dictionary.json').then(response => response.json()).then(value => value[language]);
+    return await fetch('./data/dictionary.json').then(response => response.json()).then(value => value[language]);
   }
 
   async getAuthorData(language) {
-    return await fetch(`/data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
+    return await fetch(`./data/directors/directors.${language}.json`).then(response => response.json()).then(value => value);
   }
 }
 

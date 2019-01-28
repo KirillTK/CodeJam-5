@@ -27,7 +27,7 @@ class AuthListComponent extends Component {
 
   loadData() {
     if (!this.state.authors) {
-      fetch(`/data/directors/directors.${this.state.language}.json`, {
+      fetch(`./data/directors/directors.${this.state.language}.json`, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -40,7 +40,7 @@ class AuthListComponent extends Component {
     }
 
     if (!this.state.interface) {
-      fetch(`/data/dictionary.json`, {
+      fetch(`./data/dictionary.json`, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
