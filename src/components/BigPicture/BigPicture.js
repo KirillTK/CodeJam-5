@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import BigPicture from "react-bigpicture";
 
 import './BigPicture.css';
@@ -6,7 +6,7 @@ import './BigPicture.css';
 class BigPictureComponent extends Component {
   render() {
     const videoId = (this.props.link.split('='))[1];
-    
+
     return (
       <BigPicture
         type="youtube"

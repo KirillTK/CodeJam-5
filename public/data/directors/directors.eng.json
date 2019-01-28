@@ -37,13 +37,13 @@
           "dateDescription": "Since 2017 - the main director of the Brest Regional Puppet Theater."
         }
       ],
-      "photo": "/data/directors/yanushkevich/photo.jpg",
+      "photo": "./data/directors/yanushkevich/photo.jpg",
       "gallery": [
-        "/data/directors/yanushkevich/gallery-1.jpg",
-        "/data/directors/yanushkevich/gallery-2.jpg",
-        "/data/directors/yanushkevich/gallery-3.jpg",
-        "/data/directors/yanushkevich/gallery-4.jpg",
-        "/data/directors/yanushkevich/gallery-5.jpg"
+        "./data/directors/yanushkevich/gallery-1.jpg",
+        "./data/directors/yanushkevich/gallery-2.jpg",
+        "./data/directors/yanushkevich/gallery-3.jpg",
+        "./data/directors/yanushkevich/gallery-4.jpg",
+        "./data/directors/yanushkevich/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
@@ -102,13 +102,13 @@
           "dateDescription": "He died in Vitebsk at the age of 93. He was buried at the Mazurinsky cemetery in Vitebsk."
         }
       ],
-      "photo": "/data/directors/shmakov/photo.jpg",
+      "photo": "./data/directors/shmakov/photo.jpg",
       "gallery": [
-        "/data/directors/shmakov/gallery-1.jpg",
-        "/data/directors/shmakov/gallery-2.jpg",
-        "/data/directors/shmakov/gallery-3.jpg",
-        "/data/directors/shmakov/gallery-4.jpg",
-        "/data/directors/shmakov/gallery-5.jpg"
+        "./data/directors/shmakov/gallery-1.jpg",
+        "./data/directors/shmakov/gallery-2.jpg",
+        "./data/directors/shmakov/gallery-3.jpg",
+        "./data/directors/shmakov/gallery-4.jpg",
+        "./data/directors/shmakov/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
@@ -175,15 +175,15 @@
           "dateDescription": "I visited Moscow. The purpose of the“ visit ”is to shoot in the ORT program“ Malakhov + ”on the topic of weight loss."
         }
       ],
-      "photo": "/data/directors/kryzhanovsky/photo.jpg",
+      "photo": "./data/directors/kryzhanovsky/photo.jpg",
       "gallery": [
-        "/data/directors/kryzhanovsky/gallery-1.jpg",
-        "/data/directors/kryzhanovsky/gallery-2.jpg",
-        "/data/directors/kryzhanovsky/gallery-3.jpg",
-        "/data/directors/kryzhanovsky/gallery-4.jpg",
-        "/data/directors/kryzhanovsky/gallery-5.jpg",
-        "/data/directors/kryzhanovsky/gallery-6.jpg",
-        "/data/directors/kryzhanovsky/gallery-7.jpg"
+        "./data/directors/kryzhanovsky/gallery-1.jpg",
+        "./data/directors/kryzhanovsky/gallery-2.jpg",
+        "./data/directors/kryzhanovsky/gallery-3.jpg",
+        "./data/directors/kryzhanovsky/gallery-4.jpg",
+        "./data/directors/kryzhanovsky/gallery-5.jpg",
+        "./data/directors/kryzhanovsky/gallery-6.jpg",
+        "./data/directors/kryzhanovsky/gallery-7.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
       "works": [
@@ -286,12 +286,12 @@
           "dateDescription": "Graduated from the Belarusian State Academy of Arts with a degree in drama direction."
         }
       ],
-      "photo": "/data/directors/dervoed/photo.jpg",
+      "photo": "./data/directors/dervoed/photo.jpg",
       "gallery": [
-        "/data/directors/dervoed/gallery-1.jpg",
-        "/data/directors/dervoed/gallery-2.jpg",
-        "/data/directors/dervoed/gallery-3.jpg",
-        "/data/directors/dervoed/gallery-4.jpg"
+        "./data/directors/dervoed/gallery-1.jpg",
+        "./data/directors/dervoed/gallery-2.jpg",
+        "./data/directors/dervoed/gallery-3.jpg",
+        "./data/directors/dervoed/gallery-4.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
       "works": [
@@ -370,12 +370,12 @@
           "dateDescription": "Head of the literary and dramatic part and assistant art director of the National Academic Theater named after Yanka Kupala."
         }
       ],
-      "photo": "/data/directors/dopkyunas/photo.jpg",
+      "photo": "./data/directors/dopkyunas/photo.jpg",
       "gallery": [
-        "/data/directors/dopkyunas/gallery-1.jpg",
-        "/data/directors/dopkyunas/gallery-2.jpg",
-        "/data/directors/dopkyunas/gallery-3.jpg",
-        "/data/directors/dopkyunas/gallery-4.jpg"
+        "./data/directors/dopkyunas/gallery-1.jpg",
+        "./data/directors/dopkyunas/gallery-2.jpg",
+        "./data/directors/dopkyunas/gallery-3.jpg",
+        "./data/directors/dopkyunas/gallery-4.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
       "works": [
@@ -425,11 +425,11 @@
           "dateDescription": "Dead"
         }
       ],
-      "photo": "/data/directors/moroz/photo.jpg",
+      "photo": "./data/directors/moroz/photo.jpg",
       "gallery": [
-        "/data/directors/moroz/gallery-1.jpg",
-        "/data/directors/moroz/gallery-2.jpg",
-        "/data/directors/moroz/gallery-3.jpg"
+        "./data/directors/moroz/gallery-1.jpg",
+        "./data/directors/moroz/gallery-2.jpg",
+        "./data/directors/moroz/gallery-3.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
       "works": [

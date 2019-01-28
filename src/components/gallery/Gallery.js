@@ -1,8 +1,8 @@
-import {Component} from "react";
+import { Component } from "react";
 import './Gallery.css';
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Carousel} from 'react-responsive-carousel';
+import { Carousel } from 'react-responsive-carousel';
 
 
 class GalleryComponent extends Component {
@@ -20,7 +20,7 @@ class GalleryComponent extends Component {
     const parent = [];
     const child = [];
     this.props.photos.forEach(photo => {
-      child.push(<div><img src={photo} alt={"Images of author"}/></div>)
+      child.push(<div><img src={photo} alt={"Images of author"} /></div>)
     });
 
     parent.push(child);

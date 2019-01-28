@@ -27,7 +27,7 @@ class AuthListComponent extends Component {
 
   loadData() {
     if (!this.state.authors) {
-      fetch(`/data/directors/directors.${this.state.language}.json`, {
+      fetch(`./data/directors/directors.${this.state.language}.json`, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -40,7 +40,7 @@ class AuthListComponent extends Component {
     }
 
     if (!this.state.interface) {
-      fetch(`/data/dictionary.json`, {
+      fetch(`./data/dictionary.json`, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -66,7 +66,7 @@ class AuthListComponent extends Component {
 
     const innerPage = this.props.location && this.props.location.pathname.match('/list/');
     let header = '';
-    
+
     if (innerPage) {
       header = <header className="header-inner">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -74,7 +74,7 @@ class AuthListComponent extends Component {
         </nav>
       </header>;
     }
-    
+
     return (
       <div className={innerPage ? 'container' : ''}>
         {header}
@@ -136,4 +136,3 @@ class AuthListComponent extends Component {
 
 
 export default AuthListComponent;
-
