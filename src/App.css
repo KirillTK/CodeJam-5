@@ -45,9 +45,9 @@
     margin-top: 50px;
 }
 
-.desctiption {
+.description {
     padding-bottom: 15px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     border-bottom: dashed 2px #252525;
 }
 

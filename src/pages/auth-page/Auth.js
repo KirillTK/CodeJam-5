@@ -32,7 +32,7 @@ class AuthPage extends Component {
     if (this.state.authors !== null && this.state.interface !== null) {
       return (
         <div>
-          <header className="App-header">
+          <header className="header-inner">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <h1><Link to="/"><small>{this.state.interface.portal}</small></Link></h1>
             </nav>
