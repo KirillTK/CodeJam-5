@@ -1,0 +1,50 @@
+{
+  "eng": {
+    "portalDescription": "Humanitarian educational project dedicated to directors of Belarus. We tell about interesting and significant people in the history of cinema and theater, in the format of an encyclopedia.",
+    "redirectToAuthor": "go to",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Directors of Belarus",
+    "team": "Our team",
+    "searchInput": "Name",
+    "authorDay": "Author of the day",
+    "biografy": "Biografy",
+    "works": "Works",
+    "photo": "Gallery",
+    "video": "Video",
+    "map": "Map",
+    "goToDirectorsList": "Go to list of directors",
+    "list": "List of directors"
+  },
+  "ru": {
+    "portalDescription": "Гуманитарный просветительский проект, посвященный режиссёрам Беларуси. Мы рассказываем об интересных и значимых людях в истории кино и театра, в формате энциклопедии. Редакция не несет ответственности за достоверность информации. Редакция не предоставляет справочной информации.",
+    "redirectToAuthor": "Перейти",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Режиссёры Беларуси",
+    "team": "Наша команда",
+    "searchInput": "Имя",
+    "authorDay": "Автор дня",
+    "biografy": "Биография",
+    "works": "Работы",
+    "photo": "Фотографии",
+    "video": "Видео",
+    "map": "Памятные места",
+    "goToDirectorsList": "Перейти к списку режиссёров",
+    "list": "Список режиссёров"
+  },
+  "by": {
+    "portalDescription": "Гуманітарны асветніцкі праект, прысвечаны рэжысёрам Беларусі. Мы расказваем пра цікавыя і значныя людзях у гісторыі кіно і тэатра, у фармаце энцыклапедыі.",
+    "redirectToAuthor": "Перайсці",
+    "desctiptionPortal": "blah-blah-blah",
+    "portal": "Рэжысёры Беларусі",
+    "team": "Наша каманда",
+    "searchInput": "Імя",
+    "authorDay": "Аўтар дня",
+    "biografy": "Жыццё",
+    "works": "Творчасць",
+    "photo": "Фотаздымкі",
+    "video": "Відэа",
+    "map": "Памятныя мясціны",
+    "goToDirectorsList": "Перайсці да спісу рэжысёраў",
+    "list": "Спіс рэжысёры"
+  }
+}
