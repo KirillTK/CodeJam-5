@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {YMaps, Map, Placemark, FullscreenControl} from 'react-yandex-maps';
+import React, { Component } from 'react';
+import { YMaps, Map, Placemark, FullscreenControl } from 'react-yandex-maps';
 import uuid from 'uuid/v4';
 
 
@@ -11,8 +11,8 @@ class MapComponent extends Component {
 
     return (
       <YMaps className={"MapComponent"}>
-        <Map defaultState={{center: centerCoordinate, zoom: 13}} width="100%" height="400px">
-          <FullscreenControl/>
+        <Map defaultState={{ center: centerCoordinate, zoom: 13 }} width="100%" height="400px">
+          <FullscreenControl />
           {this.renderPlaceMark()}
         </Map>
       </YMaps>
@@ -26,7 +26,7 @@ class MapComponent extends Component {
       const latitude = coordinate.placeCoords.split(', ')[0];
       const longitude = coordinate.placeCoords.split(', ')[1];
       marks.push(<Placemark key={uuid()} geometry={[latitude, longitude]}
-                            properties={{iconCaption: coordinate.placeName}}/>)
+        properties={{ iconCaption: coordinate.placeName }} />)
     });
     return marks;
   }

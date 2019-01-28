@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 import TimelineComponent from '../../components/Timeline/Timeline';
@@ -28,7 +28,7 @@ class AuthPage extends Component {
     this.loadData(this.currentLanguage);
   }
 
-  render() {    
+  render() {
     if (this.state.authors !== null && this.state.interface !== null) {
       return (
         <div>
@@ -43,7 +43,7 @@ class AuthPage extends Component {
             </div>
             <div className="row mt-4 justify-content-around">
               <div className="col-12 col-sm-8 col-md-4">
-                <img src={this.currentAuthor.photo} alt="Author" className="img-fluid"/>
+                <img src={this.currentAuthor.photo} alt="Author" className="img-fluid" />
               </div>
               <div className="col-12 col-sm-10 col-md-8">
                 <div className="row">
@@ -83,7 +83,7 @@ class AuthPage extends Component {
             <div className="row mt-4">
               <div className="col-12">
                 <h2 className="text-center mb-4">{this.state.interface.map}</h2>
-              <MapComponent coordinates = {this.currentAuthor.map} />
+                <MapComponent coordinates={this.currentAuthor.map} />
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ class AuthPage extends Component {
         <div className="App">
           <header className="App-header">
             <div className="progress">
-              <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"/>
+              <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" />
             </div>
           </header>
         </div>
@@ -107,11 +107,11 @@ class AuthPage extends Component {
 
     this._asyncRequestForAuthors = this.getAuthorData(language).then(data => {
       this.currentAuthor = data.directors[this.currentAuthorId];
-      this.setState({authors: data});
+      this.setState({ authors: data });
     });
 
     this._asyncRequestForLanguage = this.getInterface(language).then(data => {
-      this.setState({interface: data});
+      this.setState({ interface: data });
     });
   }
 

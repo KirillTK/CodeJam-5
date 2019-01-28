@@ -9,11 +9,11 @@ class TimelineComponent extends Component {
 
     this.events = props.events;
   }
-  
+
   render() {
     const bgColor = this.props.bgColor || '#e86971';
-    
-    const timelines = this.events.map((event, i) => {        
+
+    const timelines = this.events.map((event, i) => {
       return (
         <TimelineItem
           key={i}
@@ -25,7 +25,7 @@ class TimelineComponent extends Component {
         </TimelineItem>
       )
     });
-    
+
     return (
       <Timeline lineColor={'#ddd'}>
         {timelines}

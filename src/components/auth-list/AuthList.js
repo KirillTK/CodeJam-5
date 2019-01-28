@@ -66,7 +66,7 @@ class AuthListComponent extends Component {
 
     const innerPage = this.props.location && this.props.location.pathname.match('/list/');
     let header = '';
-    
+
     if (innerPage) {
       header = <header className="header-inner">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -74,7 +74,7 @@ class AuthListComponent extends Component {
         </nav>
       </header>;
     }
-    
+
     return (
       <div className={innerPage ? 'container' : ''}>
         {header}
@@ -136,4 +136,3 @@ class AuthListComponent extends Component {
 
 
 export default AuthListComponent;
-
