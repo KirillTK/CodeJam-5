@@ -1,0 +1,13 @@
+.header-inner small {
+  font-size: 60%;
+}
+
+.author-search {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.list {
+  padding-top: 20px;
+}

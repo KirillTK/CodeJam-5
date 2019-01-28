@@ -1,0 +1,474 @@
+{
+  "directors": [
+    {
+      "id": "1",
+      "name": "Аляксандр Вітальевіч Янушкевіч",
+      "bio": [
+        {
+          "dateText": "03/11/1976",
+          "dateDescription": "Нарадзіўся Аляксандр Вітальевіч Янушкевіч"
+        },
+        {
+          "dateText": "2001 год",
+          "dateDescription": "Пасля заканчэння тэатральнага факультэта Беларускай дзяржаўнай акадэміі мастацтваў па спецыялізацыі «акцёр тэатра лялек», прыняты ў трупу Дзяржаўнага тэатра лялек Рэспублікі Беларусь."
+        },
+        {
+          "dateText": "2010—2014 года",
+          "dateDescription": "Рэжысёр-пастаноўшчык Дзяржаўнага тэатра лялек Рэспублікі Беларусь."
+        },
+        {
+          "dateText": "2011 год",
+          "dateDescription": "Скончыў тэатральны факультэт Беларускай дзяржаўнай акадэміі мастацтваў па спецыялізацыі «рэжысура тэатра лялек»."
+        },
+        {
+          "dateText": "2012 год",
+          "dateDescription": "Намінант Расійскай нацыянальнай тэатральнай прэміі «Залатая маска» (спектакль «Эдып», 2012)."
+        },
+        {
+          "dateText": "2014 год",
+          "dateDescription": "Лаўрэат III Нацыянальнай прэміі Рэспублікі Беларусь «За лепшую рэжысуру дзіцячых спектакляў»."
+        },
+        {
+          "dateText": "2014—2016 года",
+          "dateDescription": "Мастацкі кіраўнік Пермскага тэатра лялек. Спектакль «Тоўстая сшытак» па А. Крыстоф, пастаўлены Аляксандр Янушкевіч ў Пермскім тэатры лялек, стаў лаўрэатам Расійскай нацыянальнай тэатральнай прэміі «Залатая маска» у намінацыі «лепшы спектакль у тэатры лялек» ў 2016 годзе."
+        },
+        {
+          "dateText": "З 2017 года",
+          "dateDescription": "З 2017 года - галоўны рэжысёр Брэсцкага абласнога тэатра лялек."
+        }
+      ],
+      "photo": "./data/directors/yanushkevich/photo.jpg",
+      "gallery": [
+        "./data/directors/yanushkevich/gallery-1.jpg",
+        "./data/directors/yanushkevich/gallery-2.jpg",
+        "./data/directors/yanushkevich/gallery-3.jpg",
+        "./data/directors/yanushkevich/gallery-4.jpg",
+        "./data/directors/yanushkevich/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
+      "works": [
+        {
+          "dateText": "2014",
+          "dateDescription": "«Эдып», Тэатр лялек «Гулівер», Курган, і Творчае аб'яднанне «КультПроект», Масква"
+        },
+        {
+          "dateText": "2016",
+          "dateDescription": "«Тоўсты сшытак», Тэатр лялек, Перм"
+        },
+        {
+          "dateText": "2019",
+          "dateDescription": "«Сад», Тэатр лялек Рэспублікі Карэлія, Петразаводск"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Месца нараджэння",
+          "placeCoords": "53.677834, 23.829529",
+          "placeDescription": "Гродна, Беларусь"
+        },
+        {
+          "placeName": "Месца працы.",
+          "placeCoords": "52.107324, 23.761010",
+          "placeDescription": "Брэсцкі абласны тэатр лялек (галоўны рэжысёр)"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Фёдар Іванавіч Шмакаў",
+      "bio": [
+        {
+          "dateText": "16/02/1917",
+          "dateDescription": "Нарадзіўся Фёдар Іванавіч Шмакаў у Петраградзе"
+        },
+        {
+          "dateText": "1935-1939 гады",
+          "dateDescription": "Паступіў у Ленінградскае цэнтральнае тэатральную вучэльню (цяпер Санкт-Пецярбургская дзяржаўная акадэмія тэатральнага мастацтва), якое скончыў у 1939 году (майстэрня В. В. Меркурьева) і быў прыняты ў трупу Дзяржаўнага рускага драматычнага тэатра Беларускай ССР у Магілёве (цяпер Нацыянальны акадэмічны драматычны тэатр імя . М. Горкага)."
+        },
+        {
+          "dateText": "1941 год",
+          "dateDescription": "Тэатр гастраляваў у Беластоку, калі пачалася вайна. Тады ж Ф. Шмакаў апынуўся ў Віцебску, дзе перайшоў у 2-й Беларускі дзяржаўны тэатр (цяпер Нацыянальны акадэмічны драматычны тэатр ім. Якуба Коласа), на сцэне якога сыграў больш за 200 роляў, а з 60-х гадоў і ставіў спектаклі ў якасці рэжысёра."
+        },
+        {
+          "dateText": "1944 год",
+          "dateDescription": "Працаваў у франтавой тэатральнай брыгадзе."
+        },
+        {
+          "dateText": "с 1948 года",
+          "dateDescription": "Член ВКП(б)"
+        },
+        {
+          "dateText": "01/05/2009",
+          "dateDescription": "Памёр у Віцебску на 93-м годзе жыцця. Пахаваны на Мазуринском могілках у Віцебску."
+        }
+      ],
+      "photo": "./data/directors/shmakov/photo.jpg",
+      "gallery": [
+        "./data/directors/shmakov/gallery-1.jpg",
+        "./data/directors/shmakov/gallery-2.jpg",
+        "./data/directors/shmakov/gallery-3.jpg",
+        "./data/directors/shmakov/gallery-4.jpg",
+        "./data/directors/shmakov/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
+      "works": [
+        {
+          "dateText": "1966",
+          "dateDescription": "«Бацькаўшчына» К. Чорнага"
+        },
+        {
+          "dateText": "1970",
+          "dateDescription": "«Сямнаццаць імгненняў вясны» Ю. Сямёнава і У. Токарава"
+        },
+        {
+          "dateText": "1974",
+          "dateDescription": "«Трывога» А. Петрашкевіча"
+        },
+        {
+          "dateText": "1999",
+          "dateDescription": "«Несцерка» В.Вольскага"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Месца нараджэння",
+          "placeCoords": "59.939095, 30.315868",
+          "placeDescription": "Петраград, Расійская імперыя"
+        },
+        {
+          "placeName": "Месца смерці",
+          "placeCoords": "55.183672, 30.204791",
+          "placeDescription": "Віцебск, Беларусь"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Яўген Анатольевіч Крыжаноўскі",
+      "bio": [
+        {
+          "dateText": "1955/06/06",
+          "dateDescription": "Нарадзіўся Яўген Анатольевіч Крыжаноўскі ў Мікалаеве (Украінская ССР)"
+        },
+        {
+          "dateText": "1973 год",
+          "dateDescription": "Паступіў у Беларускі тэатральна-мастацкі інстытут на акцёрскае аддзяленне."
+        },
+        {
+          "dateText": "1977 год",
+          "dateDescription": "Прыняты ў трупу Акадэмічнага тэатра ім. Янкі Купалы."
+        },
+        {
+          "dateText": "1986 год",
+          "dateDescription": "Разам з Уладзімірам пярцовы і Юрыем Лясным стварыў тэатр сатыры і гумару \"Хрыстафор\""
+        },
+        {
+          "dateText": "2001 год",
+          "dateDescription": "Высунуў сваю кандыдатуру на прэзідэнцкіх выбарах, сабраў 30 тысяч подпісаў, але зьняўся, калі даведаўся, што Прэзідэнтам Беларусі можа стаць толькі ураджэнец Беларусі."
+        },
+        {
+          "dateText": "2007 год",
+          "dateDescription": "Набыў Ліберальна-дэмакратычную партыю Беларусі. Прычынай гэтага, па ўласных словах, была адсутнасць свабоды слова і сістэмнай апазіцыі. 3 кастрычніка 2008 г. прызначаны намеснікам старшыні партыі і кіраўніком упраўлення агітацыі і прапаганды."
+        },
+        {
+          "dateText": "2008/05/18",
+          "dateDescription": "Наведаў Маскву. Мэта візіту - здымкі ў праграме АРТ \"Малахаў +\", прысвечанай тэме пахудання."
+        }
+      ],
+      "photo": "./data/directors/kryzhanovsky/photo.jpg",
+      "gallery": [
+        "./data/directors/kryzhanovsky/gallery-1.jpg",
+        "./data/directors/kryzhanovsky/gallery-2.jpg",
+        "./data/directors/kryzhanovsky/gallery-3.jpg",
+        "./data/directors/kryzhanovsky/gallery-4.jpg",
+        "./data/directors/kryzhanovsky/gallery-5.jpg",
+        "./data/directors/kryzhanovsky/gallery-6.jpg",
+        "./data/directors/kryzhanovsky/gallery-7.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
+      "works": [
+        {
+          "dateText": "1976",
+          "dateDescription": "Вянок санетаў"
+        },
+        {
+          "dateText": "1979",
+          "dateDescription": "Дзіўныя прыгоды Дзяніса Кораблёва"
+        },
+        {
+          "dateText": "1980",
+          "dateDescription": "бусляня"
+        },
+        {
+          "dateText": "1980",
+          "dateDescription": "Вось вярнуўся гэты хлопец ..."
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "Купальская ноч"
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "З кошкі ўсё і пачалося ..."
+        },
+        {
+          "dateText": "1985",
+          "dateDescription": "Ідзі і глядзі"
+        },
+        {
+          "dateText": "1988",
+          "dateDescription": "Вы чыё, старичьё?"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Запiскi Самсона Самосуя"
+        },
+        {
+          "dateText": "1997",
+          "dateDescription": "Справы лахоўскі"
+        },
+        {
+          "dateText": "2004",
+          "dateDescription": "Карусель"
+        },
+        {
+          "dateText": "2007",
+          "dateDescription": "Сынок"
+        },
+        {
+          "dateText": "2010",
+          "dateDescription": "Замах"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Вольф Месінга (серыял)"
+        },
+        {
+          "dateText": "2013",
+          "dateDescription": "Клянёмся абараняць (серыял)"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Месца нараджэння",
+          "placeCoords": "46.975033, 31.994577",
+          "placeDescription": "Нікалаеў, Украіна"
+        },
+        {
+          "placeName": "Заснавальнік тэатра \"Хрыстафор\"",
+          "placeCoords": "53.899655, 27.555007",
+          "placeDescription": "Мінск, Беларусь"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Раман Аляксеевіч Дзерваед",
+      "bio": [
+        {
+          "dateText": "1985/12/08",
+          "dateDescription": "Нарадзіўся Раман Аляксеевіч Дзерваед ў Оршы (Беларуская ССР)"
+        },
+        {
+          "dateText": "2006 год",
+          "dateDescription": "Скончыў Магілёўскі дзяржаўны каледж мастацтваў па спецыяльнасці \"акцёр тэатра і кіно\"."
+        },
+        {
+          "dateText": "2007 год",
+          "dateDescription": "Арганізаваў у Гомелі тэатр-студыю \"Кола\", з'яўляўся яго мастацкім кіраўніком і рэжысёрам."
+        },
+        {
+          "dateText": "З 2008 года",
+          "dateDescription": "Акцёр, рэжысёр Нацыянальнага акадэмічнага драматычнага тэатра імя М.Горкага."
+        },
+        {
+          "dateText": "2013 год",
+          "dateDescription": "Скончыў Беларускую дзяржаўную акадэмію мастацтваў па спецыяльнасці \"рэжысура драмы\"."
+        }
+      ],
+      "photo": "./data/directors/dervoed/photo.jpg",
+      "gallery": [
+        "./data/directors/dervoed/gallery-1.jpg",
+        "./data/directors/dervoed/gallery-2.jpg",
+        "./data/directors/dervoed/gallery-3.jpg",
+        "./data/directors/dervoed/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
+      "works": [
+        {
+          "dateText": "2009",
+          "dateDescription": "Мачаха"
+        },
+        {
+          "dateText": "2010",
+          "dateDescription": "Эдып"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Загадкавы візіт"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Бывайце здаровы"
+        },
+        {
+          "dateText": "2013",
+          "dateDescription": "Радня"
+        },
+        {
+          "dateText": "2014",
+          "dateDescription": "Прыватная закупка"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "Вячэра з Кірай Найтлі"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "Сон у летнюю ноч або Кароль лір"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "Па шчупаковым загадзе"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Месца нараджэння",
+          "placeCoords": "54.510741, 30.429586",
+          "placeDescription": "Орша, Беларусь"
+        },
+        {
+          "placeName": "Нацыянальны акадэмічны драматычны тэатр імя М.Горкага",
+          "placeCoords": "53.898445, 27.551185",
+          "placeDescription": "Акцёр, рэжысёр"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Вадзім Вячаслававіч Допкюнас",
+      "bio": [
+        {
+          "dateText": "1940/12/20",
+          "dateDescription": "Нарадзіўся Вадзім Вячаслававіч Допкюнас у Анадыра (Чукотка, Расія)"
+        },
+        {
+          "dateText": "1964 год",
+          "dateDescription": "Скончыў Беларускі тэатральна-мастацкі інстытут па спецыяльнасцях \"акцёр драматычнага тэатра і кіно\"."
+        },
+        {
+          "dateText": "1967 год",
+          "dateDescription": "Скончыў Беларускі тэатральна-мастацкі інстытут па спецыяльнасцях \"рэжысёр драмы\"."
+        },
+        {
+          "dateText": "1978-1981 года",
+          "dateDescription": "Дырэктар Беларускага тэатра юнага гледача."
+        },
+        {
+          "dateText": "2007-2009 года",
+          "dateDescription": "Кіраўнік літаратурна-драматычнай часткі і памочнік мастацкага кіраўніка Нацыянальнага акадэмічнага тэатра імя Янкі Купалы."
+        }
+      ],
+      "photo": "./data/directors/dopkyunas/photo.jpg",
+      "gallery": [
+        "./data/directors/dopkyunas/gallery-1.jpg",
+        "./data/directors/dopkyunas/gallery-2.jpg",
+        "./data/directors/dopkyunas/gallery-3.jpg",
+        "./data/directors/dopkyunas/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
+      "works": [
+        {
+          "dateText": "1966",
+          "dateDescription": "Развітанне ў чэрвені"
+        },
+        {
+          "dateText": "1978",
+          "dateDescription": "Пагаворым, брат"
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "Дзяржаўная мяжа"
+        },
+        {
+          "dateText": "2014",
+          "dateDescription": "Якая сыходзіць натура"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Месца нараджэння",
+          "placeCoords": "64.733115, 177.508924",
+          "placeDescription": "Анадырь, Расія"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Валерый Пятровіч Мароз",
+      "bio": [
+        {
+          "dateText": "1941",
+          "dateDescription": "Нарадзіўся Валерый Пятровіч Мароз"
+        },
+        {
+          "dateText": "1966 год",
+          "dateDescription": "Заснаваў адзін з найстарэйшых аматарскіх тэатральных калектываў Беларусі - Тэатр юнацкага творчасці."
+        },
+        {
+          "dateText": "2009 год",
+          "dateDescription": "Нясвіжскаму тэатру імя Уршулі Радзівіл пад кіраўніцтвам В. П. Мароза было прысвоена званне \"Заслужаны аматарскі калектыў Рэспублікі Беларусь\"."
+        },
+        {
+          "dateText": "2009/12/23",
+          "dateDescription": "Памёр"
+        }
+      ],
+      "photo": "./data/directors/moroz/photo.jpg",
+      "gallery": [
+        "./data/directors/moroz/gallery-1.jpg",
+        "./data/directors/moroz/gallery-2.jpg",
+        "./data/directors/moroz/gallery-3.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
+      "works": [
+        {
+          "dateText": "1987",
+          "dateDescription": "Адступнік"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Несрочная вясна"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Не пакідай ..."
+        },
+        {
+          "dateText": "2003",
+          "dateDescription": "У чэрвені 41-га"
+        },
+        {
+          "dateText": "2003",
+          "dateDescription": "Анастасія Слуцкая"
+        },
+        {
+          "dateText": "2006",
+          "dateDescription": "Тры талеры"
+        },
+        {
+          "dateText": "2009",
+          "dateDescription": "Тэрарыстка Іванова"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Нясвіжскі тэатр імя Уршулі Радзівіл",
+          "placeCoords": "53.901061, 27.562896",
+          "placeDescription": "У 2009 годзе ў Нясвіжскі тэатру імя Уршулі Радзівіл пад кіраўніцтвам В. П. Мароза было прысвоена званне \"Заслужаны аматарскі калектыў Рэспублікі Беларусь\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "directors": [
+    {
+      "id": "1",
+      "name": "Александр Витальевич Янушкевич",
+      "bio": [
+        {
+          "dateText": "03/11/1976",
+          "dateDescription": "Родился Александр Витальевич Янушкевич"
+        },
+        {
+          "dateText": "2001 год",
+          "dateDescription": "После окончания театрального факультета Белорусской государственной академии искусств по специализации «актёр театра кукол», принят в труппу Государственного театра кукол Республики Беларусь."
+        },
+        {
+          "dateText": "2010—2014 года",
+          "dateDescription": "Режиссёр-постановщик Государственного театра кукол Республики Беларусь."
+        },
+        {
+          "dateText": "2011 год",
+          "dateDescription": "Окончил театральный факультет Белорусской государственной академии искусств по специализации «режиссура театра кукол»."
+        },
+        {
+          "dateText": "2012 год",
+          "dateDescription": "Номинант Российской национальной театральной премии «Золотая маска» (спектакль «Эдип», 2012)."
+        },
+        {
+          "dateText": "2014 год",
+          "dateDescription": "Лауреат III Национальной премии Республики Беларусь «за лучшую режиссуру детских спектаклей»."
+        },
+        {
+          "dateText": "2014—2016 года",
+          "dateDescription": "Художественный руководитель Пермского театра кукол. Спектакль «Толстая тетрадь» по А. Кристоф, поставленный Александром Янушкевичем в Пермском театре кукол, стал лауреатом Российской национальной театральной премии «Золотая Маска» в номинации «лучший спектакль в театре кукол» в 2016 году."
+        },
+        {
+          "dateText": "С 2017 года",
+          "dateDescription": "С 2017 года — главный режиссёр Брестского областного театра кукол."
+        }
+      ],
+      "photo": "./data/directors/yanushkevich/photo.jpg",
+      "gallery": [
+        "./data/directors/yanushkevich/gallery-1.jpg",
+        "./data/directors/yanushkevich/gallery-2.jpg",
+        "./data/directors/yanushkevich/gallery-3.jpg",
+        "./data/directors/yanushkevich/gallery-4.jpg",
+        "./data/directors/yanushkevich/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
+      "works": [
+        {
+          "dateText": "2014",
+          "dateDescription": "«Эдип», Театр кукол «Гулливер», Курган, и Творческое объединение «КультПроект», Москва"
+        },
+        {
+          "dateText": "2016",
+          "dateDescription": "«Толстая тетрадь», Театр кукол, Пермь"
+        },
+        {
+          "dateText": "2019",
+          "dateDescription": "«Сад», Театр кукол Республики Карелия, Петрозаводск"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Место рождения",
+          "placeCoords": "53.677834, 23.829529",
+          "placeDescription": "Гродно, Беларусь"
+        },
+        {
+          "placeName": "Текущее место работы",
+          "placeCoords": "52.107324, 23.761010",
+          "placeDescription": "Брестский областной театр кукол (главный режиссёр)"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Фёдор Иванович Шмаков",
+      "bio": [
+        {
+          "dateText": "16/02/1917",
+          "dateDescription": "Родился Фёдор Иванович Шмаков в Петрограде"
+        },
+        {
+          "dateText": "1935-1939 года",
+          "dateDescription": "Поступил в Ленинградское центральное театральное училище (ныне Санкт-Петербургская государственная академия театрального искусства), которое окончил в 1939 году (мастерская В. В. Меркурьева) и был принят в труппу Государственного русского драматического театра Белорусской ССР в Могилёве (ныне Национальный академический драматический театр им. М. Горького)."
+        },
+        {
+          "dateText": "1941 год",
+          "dateDescription": "Театр гастролировал в Белостоке, когда началась война. Тогда же Ф. Шмаков оказался в Витебске, где перешёл во 2-й Белорусский государственный театр (ныне Национальный академический драматический театр им. Якуба Коласа), на сцене которого сыграл более 200 ролей, а с 60-х годов и ставил спектакли в качестве режиссёра."
+        },
+        {
+          "dateText": "1944 год",
+          "dateDescription": "Работал во фронтовой театральной бригаде."
+        },
+        {
+          "dateText": "с 1948 года",
+          "dateDescription": "Член ВКП(б)"
+        },
+        {
+          "dateText": "01/05/2009",
+          "dateDescription": "Скончался в Витебске на 93-м году жизни. Похоронен на Мазуринском кладбище в Витебске."
+        }
+      ],
+      "photo": "./data/directors/shmakov/photo.jpg",
+      "gallery": [
+        "./data/directors/shmakov/gallery-1.jpg",
+        "./data/directors/shmakov/gallery-2.jpg",
+        "./data/directors/shmakov/gallery-3.jpg",
+        "./data/directors/shmakov/gallery-4.jpg",
+        "./data/directors/shmakov/gallery-5.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
+      "works": [
+        {
+          "dateText": "1966",
+          "dateDescription": "«Батьковщина» К. Чорного"
+        },
+        {
+          "dateText": "1970",
+          "dateDescription": "«Семнадцать мгновений весны» Ю.Семёнова и В.Токарева"
+        },
+        {
+          "dateText": "1974",
+          "dateDescription": "«Тревога» А.Петрашкевича"
+        },
+        {
+          "dateText": "1999",
+          "dateDescription": "«Нестерка» В.Вольского"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Место рождения",
+          "placeCoords": "59.939095, 30.315868",
+          "placeDescription": "Петроград (Санкт-Петербург), Россия"
+        },
+        {
+          "placeName": "Место смерти",
+          "placeCoords": "55.183672, 30.204791",
+          "placeDescription": "Витебск, Беларусь"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Евгений Анатольевич Крыжановский",
+      "bio": [
+        {
+          "dateText": "06/06/1955",
+          "dateDescription": "Родился Евгений Анатольевич Крыжановский в Николаеве (Украинская ССР)"
+        },
+        {
+          "dateText": "1973 год",
+          "dateDescription": "Поступил в Белорусский театрально-художественный институт на актёрское отделение."
+        },
+        {
+          "dateText": "1977 год",
+          "dateDescription": "Принят в труппу Академического театра им. Янки Купалы."
+        },
+        {
+          "dateText": "1986 год",
+          "dateDescription": "Вместе с Владимиром Перцовым и Юрием Лесным создал театр сатиры и юмора «Христофор»"
+        },
+        {
+          "dateText": "2001 год",
+          "dateDescription": "Выдвинул свою кандидатуру на президентских выборах, собрал 30 тысяч подписей, но снялся, когда узнал, что Президентом может стать лишь уроженец Белоруссии."
+        },
+        {
+          "dateText": "2007 год",
+          "dateDescription": "Вступил в Либерально-демократическую партию Белоруссии. Причиной этого, по собственным словам, было отсутствие свободы слова и системной оппозиции. 3 октября 2008 года назначен заместителем председателя партии и руководителем управления агитации и пропаганды."
+        },
+        {
+          "dateText": "18/05/2008",
+          "dateDescription": "Посетил Москву. Цель «визита» — съёмки в программе ОРТ «Малахов+», посвящённой теме похудения."
+        }
+      ],
+      "photo": "./data/directors/kryzhanovsky/photo.jpg",
+      "gallery": [
+        "./data/directors/kryzhanovsky/gallery-1.jpg",
+        "./data/directors/kryzhanovsky/gallery-2.jpg",
+        "./data/directors/kryzhanovsky/gallery-3.jpg",
+        "./data/directors/kryzhanovsky/gallery-4.jpg",
+        "./data/directors/kryzhanovsky/gallery-5.jpg",
+        "./data/directors/kryzhanovsky/gallery-6.jpg",
+        "./data/directors/kryzhanovsky/gallery-7.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
+      "works": [
+        {
+          "dateText": "1976",
+          "dateDescription": "Венок сонетов"
+        },
+        {
+          "dateText": "1979",
+          "dateDescription": "Удивительные приключения Дениса Кораблёва"
+        },
+        {
+          "dateText": "1980",
+          "dateDescription": "Аистёнок"
+        },
+        {
+          "dateText": "1980",
+          "dateDescription": "Вот вернулся этот парень…"
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "Купальская ночь"
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "С кошки всё и началось…"
+        },
+        {
+          "dateText": "1985",
+          "dateDescription": "Иди и смотри"
+        },
+        {
+          "dateText": "1988",
+          "dateDescription": "Вы чьё, старичьё?"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Записки Самсона Самосуя"
+        },
+        {
+          "dateText": "1997",
+          "dateDescription": "Дела Лоховского"
+        },
+        {
+          "dateText": "2004",
+          "dateDescription": "Карусель"
+        },
+        {
+          "dateText": "2007",
+          "dateDescription": "Сынок"
+        },
+        {
+          "dateText": "2010",
+          "dateDescription": "Покушение"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Вольф Мессинг (сериал)"
+        },
+        {
+          "dateText": "2013",
+          "dateDescription": "Клянёмся защищать (сериал)"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Место рождения",
+          "placeCoords": "46.975033, 31.994577",
+          "placeDescription": "Николаев, Украина"
+        },
+        {
+          "placeName": "Основатель театра «Христофор»",
+          "placeCoords": "53.899655, 27.555007",
+          "placeDescription": "Минск, Беларусь"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Роман Алексеевич Дервоед",
+      "bio": [
+        {
+          "dateText": "08/12/1985",
+          "dateDescription": "Родился Роман Алексеевич Дервоед в Орше (Беларусская ССР)"
+        },
+        {
+          "dateText": "2006 год",
+          "dateDescription": "Окончил Могилёвский государственный колледж искусств по специальности «актёр театра и кино»."
+        },
+        {
+          "dateText": "2007 год",
+          "dateDescription": "Организовал в Гомеле театр-студию «Колесо», являлся его художественным руководителем и режиссёром."
+        },
+        {
+          "dateText": "С 2008 года",
+          "dateDescription": "Актёр, режиссёр Национального академического драматического театра имени М.Горького."
+        },
+        {
+          "dateText": "2013 год",
+          "dateDescription": "Окончил Белорусскую государственную академию искусств по специальности «режиссура драмы»."
+        }
+      ],
+      "photo": "./data/directors/dervoed/photo.jpg",
+      "gallery": [
+        "./data/directors/dervoed/gallery-1.jpg",
+        "./data/directors/dervoed/gallery-2.jpg",
+        "./data/directors/dervoed/gallery-3.jpg",
+        "./data/directors/dervoed/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
+      "works": [
+        {
+          "dateText": "2009",
+          "dateDescription": "Мачеха"
+        },
+        {
+          "dateText": "2010",
+          "dateDescription": "Эдип"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Загадочный визит"
+        },
+        {
+          "dateText": "2012",
+          "dateDescription": "Будьте здоровы"
+        },
+        {
+          "dateText": "2013",
+          "dateDescription": "Родня"
+        },
+        {
+          "dateText": "2014",
+          "dateDescription": "Приватная закупка"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "Ужин с Кирой Найтли"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "Сон в летнюю ночь или Король лир"
+        },
+        {
+          "dateText": "2015",
+          "dateDescription": "По щучьему веленью"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Место рождения",
+          "placeCoords": "54.510741, 30.429586",
+          "placeDescription": "Орша, Беларусь"
+        },
+        {
+          "placeName": "Национальный академический драматический театр имени М.Горького",
+          "placeCoords": "53.898445, 27.551185",
+          "placeDescription": "Актёр, режиссёр"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Вадим Вячеславович Допкюнас",
+      "bio": [
+        {
+          "dateText": "20/12/1940",
+          "dateDescription": "Родился Вадим Вячеславович Допкюнас в Анадыре (Чукотка, Россия)"
+        },
+        {
+          "dateText": "1964 год",
+          "dateDescription": "Окончил Белорусский театрально-художественный институт по специальностям «актер драматического театра и кино»."
+        },
+        {
+          "dateText": "1967 год",
+          "dateDescription": "Окончил Белорусский театрально-художественный институт по специальностям «режиссёр драмы»."
+        },
+        {
+          "dateText": "1978-1981 года",
+          "dateDescription": "Директор Белорусского театра юного зрителя."
+        },
+        {
+          "dateText": "2007-2009 года",
+          "dateDescription": "Руководитель литературно-драматической части и помощник художественного руководителя Национального академического театра имени Янки Купалы."
+        }
+      ],
+      "photo": "./data/directors/dopkyunas/photo.jpg",
+      "gallery": [
+        "./data/directors/dopkyunas/gallery-1.jpg",
+        "./data/directors/dopkyunas/gallery-2.jpg",
+        "./data/directors/dopkyunas/gallery-3.jpg",
+        "./data/directors/dopkyunas/gallery-4.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
+      "works": [
+        {
+          "dateText": "1966",
+          "dateDescription": "Прощание в июне"
+        },
+        {
+          "dateText": "1978",
+          "dateDescription": "Поговорим, брат"
+        },
+        {
+          "dateText": "1982",
+          "dateDescription": "Государственная граница"
+        },
+        {
+          "dateText": "2014",
+          "dateDescription": "Уходящая натура"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Место рождения",
+          "placeCoords": "64.733115, 177.508924",
+          "placeDescription": "Анадырь, Россия"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Валерий Петрович Мороз",
+      "bio": [
+        {
+          "dateText": "1941",
+          "dateDescription": "Родился Валерий Петрович Мороз"
+        },
+        {
+          "dateText": "1966 год",
+          "dateDescription": "Основал один из старейших любительских театральных коллективов Беларуси — Театр юношеского творчества."
+        },
+        {
+          "dateText": "2009 год",
+          "dateDescription": "Несвижскому театру имени Уршули Радзивилл под руководством В. П. Мороза было присвоено звание «Заслуженный любительский коллектив Республики Беларусь»."
+        },
+        {
+          "dateText": "23/12/2009",
+          "dateDescription": "Умер"
+        }
+      ],
+      "photo": "./data/directors/moroz/photo.jpg",
+      "gallery": [
+        "./data/directors/moroz/gallery-1.jpg",
+        "./data/directors/moroz/gallery-2.jpg",
+        "./data/directors/moroz/gallery-3.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
+      "works": [
+        {
+          "dateText": "1987",
+          "dateDescription": "Отступник"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Несрочная весна"
+        },
+        {
+          "dateText": "1989",
+          "dateDescription": "Не покидай..."
+        },
+        {
+          "dateText": "2003",
+          "dateDescription": "В июне 41-го"
+        },
+        {
+          "dateText": "2003",
+          "dateDescription": "Анастасия Слуцкая"
+        },
+        {
+          "dateText": "2006",
+          "dateDescription": "Три талера"
+        },
+        {
+          "dateText": "2009",
+          "dateDescription": "Террористка Иванова"
+        }
+      ],
+      "map": [
+        {
+          "placeName": "Несвижский театр имени Уршули Радзивилл",
+          "placeCoords": "53.901061, 27.562896",
+          "placeDescription": "В 2009 году Несвижскому театру имени Уршули Радзивилл под руководством В. П. Мороза было присвоено звание «Заслуженный любительский коллектив Республики Беларусь»."
+        }
+      ]
+    }
+  ]
+}

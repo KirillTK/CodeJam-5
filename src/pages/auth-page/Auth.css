@@ -1,0 +1,9 @@
+.author__page__header {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+.preview {
+  width: 500px;
+  height: 300px;
+}

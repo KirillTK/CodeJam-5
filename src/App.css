@@ -1,0 +1,68 @@
+.App {
+    background-color: #dddddd;
+    color: #252525;
+}
+
+.author-section {
+    padding: 25px 0;
+}
+
+.flag {
+  transition: all 0.2s linear;
+}
+
+  .flag[disabled] {
+      opacity: 0.5;
+      transform: scale(0.9);
+  }
+
+  .flag:hover {
+    background: rgba(128,128,128,0.3);
+  }
+
+.card {
+    padding: 15px;
+    border-radius: 0;
+    border-style: none;
+}
+
+.collaborator-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    margin: 2em 0;
+}
+
+  .collaborator-container a .collaborator {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0);
+      transition: all 0.3s linear;
+  }
+
+  .collaborator-container a:hover .collaborator {
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 0 0 10px 2px #000;
+    transform: scale(1.1);
+  }
+
+.team {
+    margin-top: 50px;
+}
+
+.description {
+    padding-bottom: 15px;
+    /* margin-bottom: 50px; */
+    border-bottom: dashed 2px #252525;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.text-wrap {
+    text-align: right;
+}
