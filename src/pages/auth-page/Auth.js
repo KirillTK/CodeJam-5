@@ -73,7 +73,7 @@ class AuthPage extends Component {
           <div className="row mt-4">
             <div className="col-12">
               <h2>{this.state.interface.map}</h2>
-              <MapComponent />
+              <MapComponent coordinates = {this.currentAuthor.map} />
             </div>
           </div>
         </div>
