@@ -1,8 +1,9 @@
 .author-search {
-    width: 500px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .list {
-    padding-top: 20px;
+  padding-top: 20px;
 }
