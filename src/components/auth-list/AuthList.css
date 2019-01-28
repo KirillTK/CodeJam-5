@@ -1,3 +1,7 @@
+.header-inner small {
+  font-size: 60%;
+}
+
 .author-search {
   width: 100%;
   max-width: 500px;

@@ -57,7 +57,7 @@ class App extends Component {
                   </header>
 
                   <div className="container">
-                    <section className={"desctiption"}>
+                    <section className={"description"}>
                       <div className="container">
                         <div className="row author-section">
                           <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -73,7 +73,7 @@ class App extends Component {
                             <div className={"text-wrap portal"}>
                               <h2>{this.state.interface.portal}</h2>
                               <p>{this.state.interface.portalDescription}</p>
-                              <Link to="/list/">Перейти к списку режиссёров</Link>
+                              <Link to={"/list/" + this.language}>{this.state.interface.goToDirectorsList}</Link>
                             </div>
                           </div>
                         </div>
