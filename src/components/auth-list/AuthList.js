@@ -12,11 +12,8 @@ class AuthListComponent extends Component {
     this.state = {
       language: this.props.language || (this.props.location.pathname).split('/')[2],
       interface: this.props.interface || null,
-      // authors: this.props.authors.directors,
       authors: this.props.authors ? this.props.authors.directors : null,
     };
-
-    console.log(this.state);
 
     this.findPerson = this.findPerson.bind(this);
   }
@@ -54,7 +51,6 @@ class AuthListComponent extends Component {
   }
 
   render() {
-    console.log(this.state);
 
     if (!this.state.authors || !this.state.interface) {
       return (
