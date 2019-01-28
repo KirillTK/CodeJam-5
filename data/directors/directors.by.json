@@ -37,13 +37,13 @@
           "dateDescription": "З 2017 года - галоўны рэжысёр Брэсцкага абласнога тэатра лялек."
         }
       ],
-      "photo": "/data/directors/yanushkevich/photo.jpg",
+      "photo": "data/directors/yanushkevich/photo.jpg",
       "gallery": [
-        "/data/directors/yanushkevich/gallery-1.jpg",
-        "/data/directors/yanushkevich/gallery-2.jpg",
-        "/data/directors/yanushkevich/gallery-3.jpg",
-        "/data/directors/yanushkevich/gallery-4.jpg",
-        "/data/directors/yanushkevich/gallery-5.jpg"
+        "data/directors/yanushkevich/gallery-1.jpg",
+        "data/directors/yanushkevich/gallery-2.jpg",
+        "data/directors/yanushkevich/gallery-3.jpg",
+        "data/directors/yanushkevich/gallery-4.jpg",
+        "data/directors/yanushkevich/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=90FjpAd3anY",
       "works": [
@@ -102,13 +102,13 @@
           "dateDescription": "Памёр у Віцебску на 93-м годзе жыцця. Пахаваны на Мазуринском могілках у Віцебску."
         }
       ],
-      "photo": "/data/directors/shmakov/photo.jpg",
+      "photo": "data/directors/shmakov/photo.jpg",
       "gallery": [
-        "/data/directors/shmakov/gallery-1.jpg",
-        "/data/directors/shmakov/gallery-2.jpg",
-        "/data/directors/shmakov/gallery-3.jpg",
-        "/data/directors/shmakov/gallery-4.jpg",
-        "/data/directors/shmakov/gallery-5.jpg"
+        "data/directors/shmakov/gallery-1.jpg",
+        "data/directors/shmakov/gallery-2.jpg",
+        "data/directors/shmakov/gallery-3.jpg",
+        "data/directors/shmakov/gallery-4.jpg",
+        "data/directors/shmakov/gallery-5.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=WckdzuNpPTU",
       "works": [
@@ -175,15 +175,15 @@
           "dateDescription": "Наведаў Маскву. Мэта візіту - здымкі ў праграме АРТ \"Малахаў +\", прысвечанай тэме пахудання."
         }
       ],
-      "photo": "/data/directors/kryzhanovsky/photo.jpg",
+      "photo": "data/directors/kryzhanovsky/photo.jpg",
       "gallery": [
-        "/data/directors/kryzhanovsky/gallery-1.jpg",
-        "/data/directors/kryzhanovsky/gallery-2.jpg",
-        "/data/directors/kryzhanovsky/gallery-3.jpg",
-        "/data/directors/kryzhanovsky/gallery-4.jpg",
-        "/data/directors/kryzhanovsky/gallery-5.jpg",
-        "/data/directors/kryzhanovsky/gallery-6.jpg",
-        "/data/directors/kryzhanovsky/gallery-7.jpg"
+        "data/directors/kryzhanovsky/gallery-1.jpg",
+        "data/directors/kryzhanovsky/gallery-2.jpg",
+        "data/directors/kryzhanovsky/gallery-3.jpg",
+        "data/directors/kryzhanovsky/gallery-4.jpg",
+        "data/directors/kryzhanovsky/gallery-5.jpg",
+        "data/directors/kryzhanovsky/gallery-6.jpg",
+        "data/directors/kryzhanovsky/gallery-7.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=KTEFVH8tHz8",
       "works": [
@@ -286,12 +286,12 @@
           "dateDescription": "Скончыў Беларускую дзяржаўную акадэмію мастацтваў па спецыяльнасці \"рэжысура драмы\"."
         }
       ],
-      "photo": "/data/directors/dervoed/photo.jpg",
+      "photo": "data/directors/dervoed/photo.jpg",
       "gallery": [
-        "/data/directors/dervoed/gallery-1.jpg",
-        "/data/directors/dervoed/gallery-2.jpg",
-        "/data/directors/dervoed/gallery-3.jpg",
-        "/data/directors/dervoed/gallery-4.jpg"
+        "data/directors/dervoed/gallery-1.jpg",
+        "data/directors/dervoed/gallery-2.jpg",
+        "data/directors/dervoed/gallery-3.jpg",
+        "data/directors/dervoed/gallery-4.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=ZX4vKAixlao",
       "works": [
@@ -370,12 +370,12 @@
           "dateDescription": "Кіраўнік літаратурна-драматычнай часткі і памочнік мастацкага кіраўніка Нацыянальнага акадэмічнага тэатра імя Янкі Купалы."
         }
       ],
-      "photo": "/data/directors/dopkyunas/photo.jpg",
+      "photo": "data/directors/dopkyunas/photo.jpg",
       "gallery": [
-        "/data/directors/dopkyunas/gallery-1.jpg",
-        "/data/directors/dopkyunas/gallery-2.jpg",
-        "/data/directors/dopkyunas/gallery-3.jpg",
-        "/data/directors/dopkyunas/gallery-4.jpg"
+        "data/directors/dopkyunas/gallery-1.jpg",
+        "data/directors/dopkyunas/gallery-2.jpg",
+        "data/directors/dopkyunas/gallery-3.jpg",
+        "data/directors/dopkyunas/gallery-4.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=dlE4gqOwfaQ",
       "works": [
@@ -425,11 +425,11 @@
           "dateDescription": "Памёр"
         }
       ],
-      "photo": "/data/directors/moroz/photo.jpg",
+      "photo": "data/directors/moroz/photo.jpg",
       "gallery": [
-        "/data/directors/moroz/gallery-1.jpg",
-        "/data/directors/moroz/gallery-2.jpg",
-        "/data/directors/moroz/gallery-3.jpg"
+        "data/directors/moroz/gallery-1.jpg",
+        "data/directors/moroz/gallery-2.jpg",
+        "data/directors/moroz/gallery-3.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=yKw2CzxvPQg",
       "works": [
