@@ -1,3 +1,11 @@
-.timeline h4 {
-  font-size: 1.1em;
+.timeline--wrapper {
+  padding-top: 0;
 }
+
+  .timeline--wrapper .timeline {
+    margin: 0;
+  }
+
+    .timeline--wrapper .timeline h4 {
+      font-size: 1.1em;
+    }

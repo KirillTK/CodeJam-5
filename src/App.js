@@ -61,6 +61,7 @@ class App extends Component {
                       <div className="container">
                         <div className="row author-section">
                           <div className="card col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h6 className="text-center">{this.state.interface.manOfTheDay}</h6>
                             <img src={authorOfDay.photo} className="card-img-top author-img" alt={authorOfDay.name} />
                             <div className="card-body">
                               <h5 className="card-title">{authorOfDay.name}</h5>

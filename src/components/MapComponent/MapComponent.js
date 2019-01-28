@@ -11,7 +11,7 @@ class MapComponent extends Component {
 
     return (
       <YMaps className={"MapComponent"}>
-        <Map defaultState={{center: centerCoordinate, zoom: 13}} width={500} height={400}>
+        <Map defaultState={{center: centerCoordinate, zoom: 13}} width="100%" height="400px">
           <FullscreenControl/>
           {this.renderPlaceMark()}
         </Map>
