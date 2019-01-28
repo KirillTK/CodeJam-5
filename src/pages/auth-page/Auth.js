@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 
 import TimelineComponent from '../../components/Timeline/Timeline';
 import GalleryComponent from '../../components/gallery/Gallery';
@@ -29,51 +30,57 @@ class AuthPage extends Component {
 
   render() {    
     if (this.state.authors !== null && this.state.interface !== null) {
-
       return (
-        <div className="container py-2 Auth">
-          <div className="row justify-content-center">
-            <h1 className="display-4 author__page__header">{this.currentAuthor.name}</h1>
-          </div>
-          <div className="row mt-4 justify-content-around">
-            <div className="col-12 col-sm-8 col-md-4">
-              <img src={this.currentAuthor.photo} alt="Author" className="img-fluid"/>
+        <div>
+          <header className="header-inner">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <h1><Link to="/"><small>{this.state.interface.portal}</small></Link></h1>
+            </nav>
+          </header>
+          <div className="container py-2 Auth">
+            <div className="row justify-content-center">
+              <h1 className="display-4 author__page__header">{this.currentAuthor.name}</h1>
             </div>
-            <div className="col-12 col-sm-10 col-md-8">
-              <div className="row">
-                <h2>{this.state.interface.biografy}</h2>
-                <TimelineComponent events={this.currentAuthor.bio} />
+            <div className="row mt-4 justify-content-around">
+              <div className="col-12 col-sm-8 col-md-4">
+                <img src={this.currentAuthor.photo} alt="Author" className="img-fluid"/>
               </div>
-              <div className="row">
-                <h2>{this.state.interface.works}</h2>
-                <TimelineComponent events={this.currentAuthor.works} bgColor="#61b8ff" />
-              </div>
-            </div>
-          </div>
-          <div className="row mt-4">
-            <div className="col-12">
-              <h2>{this.state.interface.photo}</h2>
-              <GalleryComponent photos={this.currentAuthor.gallery}/>
-            </div>
-          </div>
-          <div className="row mt-4 video_container">
-            <div className="col-12">
-              <div className="row">
-                <div className="col-12">
-                  <h2>{this.state.interface.video}</h2>
+              <div className="col-12 col-sm-10 col-md-8">
+                <div className="row">
+                  <h2>{this.state.interface.biografy}</h2>
+                  <TimelineComponent events={this.currentAuthor.bio} />
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-12 text-center">
-                  <BigPictureComponent link={this.currentAuthor.video} />
+                <div className="row">
+                  <h2>{this.state.interface.works}</h2>
+                  <TimelineComponent events={this.currentAuthor.works} bgColor="#61b8ff" />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row mt-4">
-            <div className="col-12">
-              <h2>{this.state.interface.map}</h2>
+            <div className="row mt-4">
+              <div className="col-12">
+                <h2>{this.state.interface.photo}</h2>
+                <GalleryComponent photos={this.currentAuthor.gallery}/>
+              </div>
+            </div>
+            <div className="row mt-4 video_container">
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-12">
+                    <h2>{this.state.interface.video}</h2>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-12 text-center">
+                    <BigPictureComponent link={this.currentAuthor.video} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-4">
+              <div className="col-12">
+                <h2>{this.state.interface.map}</h2>
               <MapComponent coordinates = {this.currentAuthor.map} />
+              </div>
             </div>
           </div>
         </div>
