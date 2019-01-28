@@ -1,4 +1,4 @@
-# awesome-random-party
+# the-best-of-the-best-random-party
 Common repository for RSS Task 
 [CodeJam-Culture-Portal](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md)
 
