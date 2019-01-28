@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/CodeJam-5/static/js/runtime~main.cd800178.js"
   },
   {
-    "revision": "c59770c0b563f391310d",
-    "url": "/CodeJam-5/static/js/main.c59770c0.chunk.js"
+    "revision": "16d1edb8d3f9b816a98a",
+    "url": "/CodeJam-5/static/js/main.16d1edb8.chunk.js"
   },
   {
     "revision": "52318fb98c51d76b0fb0",
     "url": "/CodeJam-5/static/js/1.52318fb9.chunk.js"
   },
   {
-    "revision": "c59770c0b563f391310d",
+    "revision": "16d1edb8d3f9b816a98a",
     "url": "/CodeJam-5/static/css/main.0969937f.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/CodeJam-5/static/css/1.f1fe2b1e.chunk.css"
   },
   {
-    "revision": "44c24c7f4030de35029c0dd8d5ce5b2f",
+    "revision": "94686668ba37d7fc1fc3b17f65fed06f",
     "url": "/CodeJam-5/index.html"
   }
 ];

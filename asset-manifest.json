@@ -1,7 +1,7 @@
 {
   "main.css": "/CodeJam-5/static/css/main.0969937f.chunk.css",
-  "main.js": "/CodeJam-5/static/js/main.c59770c0.chunk.js",
-  "main.js.map": "/CodeJam-5/static/js/main.c59770c0.chunk.js.map",
+  "main.js": "/CodeJam-5/static/js/main.16d1edb8.chunk.js",
+  "main.js.map": "/CodeJam-5/static/js/main.16d1edb8.chunk.js.map",
   "static/css/1.f1fe2b1e.chunk.css": "/CodeJam-5/static/css/1.f1fe2b1e.chunk.css",
   "static/js/1.52318fb9.chunk.js": "/CodeJam-5/static/js/1.52318fb9.chunk.js",
   "static/js/1.52318fb9.chunk.js.map": "/CodeJam-5/static/js/1.52318fb9.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/BigPicture.css": "/CodeJam-5/static/media/play.7944df03.svg",
   "static/css/main.0969937f.chunk.css.map": "/CodeJam-5/static/css/main.0969937f.chunk.css.map",
   "index.html": "/CodeJam-5/index.html",
-  "precache-manifest.7656bd74ae7d59485c94ff038c0e8871.js": "/CodeJam-5/precache-manifest.7656bd74ae7d59485c94ff038c0e8871.js",
+  "precache-manifest.1a7b9b6342c13bba69e09ae3788fd038.js": "/CodeJam-5/precache-manifest.1a7b9b6342c13bba69e09ae3788fd038.js",
   "service-worker.js": "/CodeJam-5/service-worker.js"
 }
